@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900|Nanum+Brush+Script|Patrick+Hand+SC|Tillana:400,500,600,700,800');
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Navbar */
+
+.navbar {
+    margin-bottom: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.navbar .navbar-brand {
+    font-weight: 500;
+    font-size: 30px;
+    color: #020202;
+    text-transform: uppercase;
+}
+
+.navbar .navbar-brand:hover {
+    background-color: transparent;
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.navbar-default .navbar-collapse {
+    border-color: transparent;
+}
+
+.navbar-default .navbar-toggler {
+    background-color: transparent;
+    border: 0;
+}
+
+#my-navbar .navbar-nav a {
+    color: silver;
+    font-weight: 300;
+    text-align: right;
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+    margin: 0;
+
+}
+
+@media (max-width: 767px) {
+    #my-navbar .navbar-nav>.active>a,
+    #my-navbar .navbar-nav>.active>a:focus,
+    #my-navbar .navbar-nav>.active>a:hover {
+        color: #020202;
+    }
+}
+
+#my-navbar .navbar-nav a:hover {
+    color: #020202;
+    -webkit-transition: color ease-in-out 0.5s;
+    -moz-transition: color ease-in-out 0.5s;
+    -ms-transition: color ease-in-out 0.5s;
+    -o-transition: color ease-in-out 0.5s;
+    transition: color ease-in-out 0.5s;
+}
+
+
+/* Section 1 - Photo */
+
+.photo-container {
+    height: 100vh;
+    background-image: url('../images/main_photo.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+/* Section 2 - New album */
+
+.album-container {
+    background-image: url('../images/new_album_cover.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    justify-content: center;
+}
+
+@media (max-width:767px) {
+    .album-container {
+        height: 520px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .album-container {
+        height: 950px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1800px) {
+    .album-container {
+        height: 750px;
+    }
+}
+
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron h2 {
+    color: #f4f0ef;
+    font-weight: 500;
+    font-family: 'Tillana', sans-serif;
+}
+
+.jumbotron .lead {
+    color: #f4f0ef;
+}
+
+/* Section 3 - Buttons */
+
+.button-container {
+    height: auto;
+    background-color: #020202;
+    line-height: 80px;
+
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+}
+
+
+.btn--buy {
+    font-weight: 400;
+    font-size: 18px;
+    border-radius: 20px;
+    display: inline;
+    border-color: #f4f0ef;
+    color: #f4f0ef;
+}
+
+@media (max-width: 767px) {
+
+    .btn--buy {
+        background-color: transparent;
+        border-color: #f4f0ef;
+        color: #f4f0ef;
+        display: block;
+        margin: 12px auto;
+        text-align: center;
+        font-size: 15px;
+        line-height: 25px;
+        padding: 3px 0;
+        width: 100%;
+    }
+}
+
+.btn--buy:hover,
+.btn--buy:active,
+.btn--buy:focus,
+.btn--buy:active:focus {
+    background-color: white;
+    color: #020202;
+    -webkit-transition: color background-color ease-in-out 0.7s;
+    -moz-transition: color background-color ease-in-out 0.7s;
+    -ms-transition: color background-color ease-in-out 0.7s;
+    -o-transition: color background-color ease-in-out 0.7s;
+    transition: color background-color ease-in-out 0.7s;
+
+}
+
+/* Footer */
