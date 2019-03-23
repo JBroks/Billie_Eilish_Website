@@ -1,26 +1,34 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900|Nanum+Brush+Script|Patrick+Hand+SC|Tillana:400,500,600,700,800');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900|Tillana:400,500,600,700,800');
 
 body {
     font-family: "Montserrat", sans-serif;
 }
 
-/* Navbar */
+body,
+html {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+/* --- Navbar --- */
 
 .navbar {
     margin-bottom: 0;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 1;
-    background-color: transparent;
+    background-color: rgba(245, 245, 245, 0.4);
     border-color: transparent;
 }
 
 .navbar .navbar-brand {
     font-weight: 500;
     font-size: 30px;
-    color: #020202;
+    color: #010101;
     text-transform: uppercase;
 }
 
@@ -43,7 +51,7 @@ body {
 }
 
 #my-navbar .navbar-nav a {
-    color: silver;
+    color: #ACACAC;
     font-weight: 300;
     text-align: right;
     text-decoration: none;
@@ -53,16 +61,8 @@ body {
 
 }
 
-@media (max-width: 767px) {
-    #my-navbar .navbar-nav>.active>a,
-    #my-navbar .navbar-nav>.active>a:focus,
-    #my-navbar .navbar-nav>.active>a:hover {
-        color: #020202;
-    }
-}
-
 #my-navbar .navbar-nav a:hover {
-    color: #020202;
+    color: #010101;
     -webkit-transition: color ease-in-out 0.5s;
     -moz-transition: color ease-in-out 0.5s;
     -ms-transition: color ease-in-out 0.5s;
@@ -70,8 +70,13 @@ body {
     transition: color ease-in-out 0.5s;
 }
 
+.navbar-toggler span {
+    color: #ACACAC;
+    font-size: 27px;
+    padding-right: 5px;
+}
 
-/* Section 1 - Photo */
+/* --- Section 1 - Photo --- */
 
 .photo-container {
     height: 100vh;
@@ -84,7 +89,7 @@ body {
     -o-background-size: cover;
 }
 
-/* Section 2 - New album */
+/* --- Section 2 - New album --- */
 
 .album-container {
     background-image: url('../images/new_album_cover.jpg');
@@ -101,44 +106,25 @@ body {
     justify-content: center;
 }
 
-@media (max-width:767px) {
-    .album-container {
-        height: 520px;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-    .album-container {
-        height: 950px;
-    }
-}
-
-@media (min-width: 992px) and (max-width: 1800px) {
-    .album-container {
-        height: 750px;
-    }
-}
-
-
 .jumbotron {
     background-color: transparent;
 }
 
 .jumbotron h2 {
-    color: #f4f0ef;
+    color: #f5f5f5;
     font-weight: 500;
     font-family: 'Tillana', sans-serif;
 }
 
 .jumbotron .lead {
-    color: #f4f0ef;
+    color: #f5f5f5;
 }
 
 /* Section 3 - Buttons */
 
 .button-container {
     height: auto;
-    background-color: #020202;
+    background-color: #010101;
     line-height: 80px;
 
     display: flex;
@@ -150,19 +136,112 @@ body {
 
 .btn--buy {
     font-weight: 400;
-    font-size: 18px;
+    font-size: 20px;
     border-radius: 20px;
     display: inline;
-    border-color: #f4f0ef;
-    color: #f4f0ef;
+    border-color: #f5f5f5;
+    color: #f5f5f5;
+    margin: 0 45px;
 }
 
+.btn--buy:hover {
+    background-color: #ACACAC;
+    border-color: #ACACAC;
+    color: #010101;
+    -webkit-transition: color background-color ease-in-out 0.5s;
+    -moz-transition: color background-color ease-in-out 0.5s;
+    -ms-transition: color background-color ease-in-out 0.5s;
+    -o-transition: color background-color ease-in-out 0.5s;
+    transition: color background-color ease-in-out 0.5s;
+
+}
+
+/* --- Footer --- */
+
+footer {
+    height: auto;
+    background-color: #f5f5f5;
+    color: #010101;
+    margin: 0;
+    min-height: 120px;
+}
+
+.social-links {
+    padding-top: 15px;
+}
+
+.social-media,
+.footer-end {
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    padding-top: 5px;
+}
+
+.footer-end u {
+    text-align: center;
+    
+}
+
+.social-links li a i {
+    width: 35px;
+    height: 35px;
+    padding: 10px 0;
+    border-radius: 50%;
+    line-height: 15px;
+    font-size: 20px;
+    text-align: center;
+    color: #f5f5f5;
+    background-color: #010101;
+}
+
+.social-links li a i:hover {
+    background-color: #ACACAC;
+    color: #010101;
+      transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -ms-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.page-end-links {
+    text-align: center;
+}
+
+.page-end-links li a, p {
+    color: #010101;
+    padding: 0 20px;
+}
+.page-end-links li p {
+    padding-top: 10px;
+}
+
+/* --- Media queries --- */
+
 @media (max-width: 767px) {
+    .navbar .navbar-brand {
+        font-size: 25px;
+    }
+
+    .album-container {
+        height: 100%;
+        background-repeat: unset;
+    }
+
+    .jumbotron h2 {
+        font-size: 140%;
+    }
+
+    .lead {
+        font-size: 90%;
+    }
 
     .btn--buy {
         background-color: transparent;
-        border-color: #f4f0ef;
-        color: #f4f0ef;
+        border-color: #f5f5f5;
+        color: #f5f5f5;
         display: block;
         margin: 12px auto;
         text-align: center;
@@ -171,20 +250,22 @@ body {
         padding: 3px 0;
         width: 100%;
     }
+    
+    .page-end-links li a, p {
+    padding: 0 auto;
+}
 }
 
-.btn--buy:hover,
-.btn--buy:active,
-.btn--buy:focus,
-.btn--buy:active:focus {
-    background-color: white;
-    color: #020202;
-    -webkit-transition: color background-color ease-in-out 0.7s;
-    -moz-transition: color background-color ease-in-out 0.7s;
-    -ms-transition: color background-color ease-in-out 0.7s;
-    -o-transition: color background-color ease-in-out 0.7s;
-    transition: color background-color ease-in-out 0.7s;
 
+@media (min-width: 768px) and (max-width: 991px) {
+    .album-container {
+        height: 90%;
+        background-repeat: unset;
+    }
 }
 
-/* Footer */
+@media (min-width: 992px) and (max-width: 1800px) {
+    .album-container {
+        height: 100%;
+    }
+}
