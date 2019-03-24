@@ -181,7 +181,7 @@ footer {
 
 .footer-end u {
     text-align: center;
-    
+
 }
 
 .social-links li a i {
@@ -199,7 +199,7 @@ footer {
 .social-links li a i:hover {
     background-color: #ACACAC;
     color: #010101;
-      transition: all 0.35s ease-in-out;
+    transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -ms-transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
@@ -210,12 +210,33 @@ footer {
     text-align: center;
 }
 
-.page-end-links li a, p {
+.page-end-links li a,
+p {
     color: #010101;
     padding: 0 20px;
 }
+
 .page-end-links li p {
     padding-top: 10px;
+}
+
+/* --- Photo Gallery --- */
+.photo-column {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.img-fluid {
+    padding-bottom: 10px;
+}
+
+#photo-gallery-container {
+    padding-top: 75px;
+    background-color: #010101;
+}
+
+.navbar-background {
+    background-color: #f5f5f5;
 }
 
 /* --- Media queries --- */
@@ -250,10 +271,11 @@ footer {
         padding: 3px 0;
         width: 100%;
     }
-    
-    .page-end-links li a, p {
-    padding: 0 auto;
-}
+
+    .page-end-links li a,
+    p {
+        padding: 0 auto;
+    }
 }
 
 
