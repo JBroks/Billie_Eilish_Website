@@ -20,8 +20,8 @@ html {
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 1;
-    background-color: rgba(245, 245, 245, 0.4);
+    z-index: 99;
+    background-color: rgba(245, 245, 245, 0.5);
     border-color: transparent;
 }
 
@@ -73,7 +73,6 @@ html {
 .navbar-toggler span {
     color: #ACACAC;
     font-size: 27px;
-    padding-right: 5px;
 }
 
 /* --- Section 1 - Photo --- */
@@ -221,6 +220,7 @@ p {
 }
 
 /* --- Photo Gallery --- */
+
 .photo-column {
     padding-right: 5px;
     padding-left: 5px;
@@ -230,13 +230,94 @@ p {
     padding-bottom: 10px;
 }
 
-#photo-gallery-container {
-    padding-top: 75px;
+#offset-container {
+    padding-top: 10px;
+    margin-top: 72px;
     background-color: #010101;
 }
 
-.navbar-background {
+
+
+/* --- Contact --- */
+
+.background-photo-container {
+    height: 100vh;
+    background-image: url('../images/main_photo.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+}
+
+.background-photo {
+    z-index: 1;
+}
+
+.background-photo h1 {
+    color: #010101;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 50px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(245, 245, 245, 0.5);
+}
+
+.form-container {
+    padding: 0 20px;
+    background-color: #010101;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 15px;
+    color: #f5f5f5;
+}
+
+.form-group {
+    margin: 25px 0;
+    justify-content: center;
+}
+
+.form-group input {
+    margin-bottom: 6px;
+    border: none;
+}
+
+#messagetext {
+    width: 80%;
+    margin: 0 10%;
+}
+
+.btn-send {
+    border: 0;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    background-color: #ACACAC;
+    border: none;
+}
+
+.btn-send:hover {
     background-color: #f5f5f5;
+    color: #010101;
+    -webkit-transition: color background-color ease-in-out 0.5s;
+    -moz-transition: color background-color ease-in-out 0.5s;
+    -ms-transition: color background-color ease-in-out 0.5s;
+    -o-transition: color background-color ease-in-out 0.5s;
+    transition: color background-color ease-in-out 0.5s;
 }
 
 /* --- Media queries --- */
@@ -276,14 +357,28 @@ p {
     p {
         padding: 0 auto;
     }
-}
 
+    #offset-container {
+        margin-top: 63px;
+    }
+
+    #messagetext {
+        width: 100%;
+        margin: 0;
+    }
+}
 
 @media (min-width: 768px) and (max-width: 991px) {
     .album-container {
         height: 90%;
         background-repeat: unset;
     }
+
+    #messagetext {
+        width: 100%;
+        margin: 0;
+    }
+
 }
 
 @media (min-width: 992px) and (max-width: 1800px) {
