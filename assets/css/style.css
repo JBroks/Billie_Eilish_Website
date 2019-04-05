@@ -91,6 +91,7 @@ html {
 /* --- Section 2 - New album --- */
 
 .album-container {
+    height: 100%;
     background-image: url('../images/new_album_cover.jpg');
     background-repeat: no-repeat;
     background-position: center center;
@@ -105,18 +106,19 @@ html {
     justify-content: center;
 }
 
+.new-album {
+    padding: 45px 20px 0;
+    margin: 0;
+}
+
 .jumbotron {
     background-color: transparent;
+    color: #f5f5f5;
 }
 
-.jumbotron h2 {
-    color: #f5f5f5;
-    font-weight: 500;
+.jumbotron h1 {
+    font-weight: 400;
     font-family: 'Tillana', sans-serif;
-}
-
-.jumbotron .lead {
-    color: #f5f5f5;
 }
 
 /* Section 3 - Buttons */
@@ -125,6 +127,7 @@ html {
     height: auto;
     background-color: #010101;
     line-height: 80px;
+    padding: 20px 0;
 
     display: flex;
     align-items: center;
@@ -132,6 +135,9 @@ html {
     justify-content: center;
 }
 
+.button-container h4 {
+    color: #f5f5f5;
+}
 
 .btn--buy {
     font-weight: 400;
@@ -454,8 +460,8 @@ h3 {
 
 
 /* --- Media queries --- */
-
-@media (max-width: 767px) {
+@media (max-width: 375px) {
+    
     .navbar .navbar-brand {
         font-size: 25px;
     }
@@ -464,15 +470,74 @@ h3 {
         height: 100%;
         background-repeat: unset;
     }
-
-    .jumbotron h2 {
-        font-size: 140%;
+    
+    .new-album {
+        padding: 30px 0 0;
+    }
+    
+    .new-album h1 {
+        font-size: 27px;
+    }
+    
+    .btn--buy {
+        display: block;
+        margin: 12px auto;
+        text-align: center;
+        font-size: 15px;
+        line-height: 25px;
+        padding: 3px 0;
+        width: 100%;
     }
 
-    .lead {
-        font-size: 90%;
+    .page-end-links li a,
+    p {
+        padding: 0 auto;
     }
 
+    #messagetext {
+        width: 100%;
+        margin: 0;
+    }
+
+    .arrow {
+        height: 25px;
+        width: 25px;
+    }
+
+    .event-row {
+        margin: 0 40px;
+        padding: 15px 0;
+    }
+
+    .tour-container {
+        padding: 30px 0 40px;
+    }
+
+    .event-date,
+    .event-place,
+    .event-city,
+    .event-btn {
+        padding: 0 0 7px;
+        text-align: center;
+    }
+}
+
+
+@media (min-width: 376px) and (max-width: 767px) {
+
+    .navbar .navbar-brand {
+        font-size: 25px;
+    }
+
+    .album-container {
+        height: 100%;
+        background-repeat: unset;
+    }
+    
+    .new-album {
+        padding: 20px 0 0;
+    }
+    
     .btn--buy {
         display: block;
         margin: 12px auto;
@@ -518,9 +583,14 @@ h3 {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+    
     .album-container {
         height: 90%;
         background-repeat: unset;
+    }
+
+    .new-album {
+        padding: 70px 20px 0;
     }
 
     #messagetext {
@@ -549,9 +619,6 @@ h3 {
 }
 
 @media (min-width: 992px) and (max-width: 1800px) {
-    .album-container {
-        height: 100%;
-    }
 
     .background-photo h1 {
         font-size: 90px;
