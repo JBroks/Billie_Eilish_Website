@@ -52,7 +52,7 @@ html {
 
 #my-navbar .navbar-nav a {
     color: #ACACAC;
-    font-weight: 300;
+    font-weight: 400;
     text-align: right;
     text-decoration: none;
     display: block;
@@ -85,6 +85,7 @@ html {
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
+    -ms-background-size: cover;
     -o-background-size: cover;
 }
 
@@ -98,6 +99,7 @@ html {
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
+    -ms-background-size: cover;
     -o-background-size: cover;
 
     display: flex;
@@ -178,18 +180,12 @@ footer {
     padding-top: 15px;
 }
 
-.social-media,
-.footer-end {
+.social-media {
     display: flex;
     align-items: center;
     position: relative;
     justify-content: center;
     padding-top: 5px;
-}
-
-.footer-end u {
-    text-align: center;
-
 }
 
 .social-links li a i {
@@ -214,19 +210,37 @@ footer {
     -o-transition: all 0.35s ease-in-out;
 }
 
-.page-end-links {
-    text-align: center;
+.list-inline-item:not(:last-child) {
+    margin-right: 1.5rem;
 }
 
-.page-end-links li a,
+.footer-end {
+    padding-top: 15px;
+}
+
+.footer-end .footer-end-item {
+    padding-bottom: 8px;
+}
+
+.footer-end-item a,
 p {
     color: #010101;
-    padding: 0 20px;
+    font-weight: 500;
 }
 
-.page-end-links li p {
-    padding-top: 10px;
+.footer-end-item a {
+    text-decoration: none;
 }
+
+.footer-end .footer-end-item a:hover {
+    color: #ACACAC;
+    -webkit-transition: color ease-in-out 0.25s;
+    -moz-transition: color ease-in-out 0.25s;
+    -ms-transition: color ease-in-out 0.25s;
+    -o-transition: color ease-in-out 0.25s;
+    transition: color ease-in-out 0.25s;
+}
+
 
 /* --- Photo Gallery --- */
 
@@ -256,6 +270,7 @@ p {
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
+    -ms-background-size: cover;
     -o-background-size: cover;
 
     display: flex;
@@ -550,11 +565,6 @@ h3 {
         width: 100%;
     }
 
-    .page-end-links li a,
-    p {
-        padding: 0 auto;
-    }
-
     #messagetext {
         width: 100%;
         margin: 0;
@@ -615,11 +625,6 @@ h3 {
         line-height: 25px;
         padding: 3px 0;
         width: 100%;
-    }
-
-    .page-end-links li a,
-    p {
-        padding: 0 auto;
     }
 
     #messagetext {
@@ -694,6 +699,10 @@ h3 {
         font-size: 2rem;
     }
 
+    .footer-end {
+        padding: 15px 60px 0;
+    }
+
 }
 
 @media (min-width: 992px) and (max-width: 1800px) {
@@ -704,6 +713,10 @@ h3 {
 
     .button-container h4 {
         font-size: 2.5rem;
+    }
+
+    .footer-end {
+        padding: 15px 60px 0;
     }
 
 }
