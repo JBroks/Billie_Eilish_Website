@@ -116,7 +116,9 @@ html {
     color: #f5f5f5;
 }
 
+
 .jumbotron h1 {
+    font-size: 60px;
     font-weight: 400;
     font-family: 'Tillana', sans-serif;
 }
@@ -137,6 +139,7 @@ html {
 
 .button-container h4 {
     color: #f5f5f5;
+    font-weight: 300;
 }
 
 .btn--buy {
@@ -294,13 +297,17 @@ h3 {
     text-transform: uppercase;
 }
 
-.form-group {
+.contact-form {
     margin: 25px 0;
     justify-content: center;
 }
 
-.form-group input {
-    margin-bottom: 6px;
+.contact-form .contact-form-item {
+    padding-bottom: 0;
+}
+
+.contact-form-item input {
+    margin-bottom: 0;
     border: none;
 }
 
@@ -350,6 +357,19 @@ h3 {
 
 #subscribe-consent a {
     color: #ACACAC;
+}
+
+.subscribe-form {
+    margin: 15px 0;
+    justify-content: center;
+}
+
+.subscribe-form .subscribe-email {
+    padding-bottom: 0;
+}
+
+.subscribe-form .subscribe-email input {
+    margin-bottom: 0;
 }
 
 /* --- Tour --- */
@@ -416,6 +436,46 @@ h3 {
     text-decoration: line-through;
 }
 
+/* --- Media --- */
+
+.video-container {
+    padding: 50px 20px 30px;
+    background-color: #010101;
+}
+
+.video-title {
+    color: #f5f5f5;
+    text-transform: uppercase;
+}
+
+/* outline text code snipet from: https://stackoverflow.com/questions/4919076/outline-effect-to-text */
+
+.hollow-text {
+    color: #010101;
+    text-shadow: -1px -1px 0 #f5f5f5, 1px -1px 0 #f5f5f5, -1px 1px 0 #f5f5f5, 1px 1px 0 #f5f5f5;
+}
+
+.video-container-title h1 {
+    font-weight: 500;
+    padding-bottom: 35px;
+}
+
+.video-container .col-lg-4,
+.col-md-6,
+.col-sm-12 {
+    padding-bottom: 20px;
+}
+
+.embed-responsive .embed-responsive-item,
+.embed-responsive embed,
+.embed-responsive iframe,
+.embed-responsive object,
+.embed-responsive video {
+    border: solid;
+    border-color: #f5f5f5;
+    border-width: 2px;
+}
+
 /* --- Arrow (code from: https://codepen.io/bitstarr/pen/XjaJGz) --- */
 
 .arrow-container {
@@ -460,8 +520,9 @@ h3 {
 
 
 /* --- Media queries --- */
+
 @media (max-width: 375px) {
-    
+
     .navbar .navbar-brand {
         font-size: 25px;
     }
@@ -470,15 +531,15 @@ h3 {
         height: 100%;
         background-repeat: unset;
     }
-    
+
     .new-album {
-        padding: 30px 0 0;
+        padding: 27px 0 0;
     }
-    
+
     .new-album h1 {
-        font-size: 27px;
+        font-size: 28px;
     }
-    
+
     .btn--buy {
         display: block;
         margin: 12px auto;
@@ -519,6 +580,10 @@ h3 {
     .event-btn {
         padding: 0 0 7px;
         text-align: center;
+    }
+
+    .contact-form-item input {
+        margin-bottom: 12px;
     }
 }
 
@@ -533,11 +598,15 @@ h3 {
         height: 100%;
         background-repeat: unset;
     }
-    
+
     .new-album {
-        padding: 20px 0 0;
+        padding: 30px 0 0;
     }
-    
+
+    .jumbotron h1 {
+        font-size: 35px;
+    }
+
     .btn--buy {
         display: block;
         margin: 12px auto;
@@ -580,18 +649,23 @@ h3 {
         text-align: center;
     }
 
+    .contact-form-item input {
+        margin-bottom: 12px;
+    }
+
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-    
+
     .album-container {
         height: 90%;
         background-repeat: unset;
     }
 
     .new-album {
-        padding: 70px 20px 0;
+        padding: 50px 20px 0;
     }
+
 
     #messagetext {
         width: 100%;
@@ -616,12 +690,20 @@ h3 {
         text-align: right;
     }
 
+    .button-container h4 {
+        font-size: 2rem;
+    }
+
 }
 
 @media (min-width: 992px) and (max-width: 1800px) {
 
     .background-photo h1 {
         font-size: 90px;
+    }
+
+    .button-container h4 {
+        font-size: 2.5rem;
     }
 
 }
