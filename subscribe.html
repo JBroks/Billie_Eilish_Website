@@ -16,7 +16,7 @@
 <body>
     <!-- Navbar -->
     <nav class="navbar navbar-default navbar-light navbar-expand-md navbar-background" id="my-navbar">
-        <div class="container-fluid">
+        <div class="container-fluid navbar-container">
             <div class="navbar-header">
                 <a class="navbar-brand" href="index.html">
                         Billie Eilish
@@ -47,13 +47,15 @@
                 </div>
             </div>
             <div class="arrow-container">
-                <div class="row">
-                    <div class="col-12 bounce-element">
-                        <div class="arrow bounce"></div>
-                        <div class="arrow bounce"></div>
-                        <div class="arrow bounce"></div>
+                <a href="subscribe.html#subscribe-section">
+                    <div class="row">
+                        <div class="col-12 bounce-element">
+                            <div class="arrow bounce"></div>
+                            <div class="arrow bounce"></div>
+                            <div class="arrow bounce"></div>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
     </section>
@@ -68,7 +70,12 @@
                 </div>
                 <div class="row form-group subscribe-form">
                     <div class="col-md-6 subscribe-email">
-                        <input type="email" class="form-control" placeholder="Email" required>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="basic-addon3">Email</span>
+                            </div>
+                            <input type="email" class="form-control" aria-describedby="basic-addon3" required/>
+                        </div>
                     </div>
                 </div>
                 <div class="row">

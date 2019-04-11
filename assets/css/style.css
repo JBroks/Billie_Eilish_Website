@@ -21,8 +21,24 @@ html {
     left: 0;
     width: 100%;
     z-index: 99;
-    background-color: rgba(245, 245, 245, 0.5);
+    background-color: rgba(245, 245, 245, 0.7);
     border-color: transparent;
+}
+
+.navbar-container {
+    padding: 0;
+}
+
+/* stroke code snippet source: https://codepen.io/maheshambure21/pen/QwXaRw */
+
+#my-navbar ul li a:hover {
+    color: #808080;
+}
+
+#my-navbar .navbar-nav a,
+#my-navbar .navbar-nav a:after,
+#my-navbar .navbar-nav a:before {
+    transition: color .5s;
 }
 
 .navbar .navbar-brand {
@@ -51,27 +67,15 @@ html {
 }
 
 #my-navbar .navbar-nav a {
-    color: #ACACAC;
-    font-weight: 400;
+    color: #010101;
     text-align: right;
     text-decoration: none;
+    text-transform: uppercase;
     display: block;
-    padding: 5px;
-    margin: 0;
-
-}
-
-#my-navbar .navbar-nav a:hover {
-    color: #010101;
-    -webkit-transition: color ease-in-out 0.5s;
-    -moz-transition: color ease-in-out 0.5s;
-    -ms-transition: color ease-in-out 0.5s;
-    -o-transition: color ease-in-out 0.5s;
-    transition: color ease-in-out 0.5s;
 }
 
 .navbar-toggler span {
-    color: #ACACAC;
+    color: #010101;
     font-size: 27px;
 }
 
@@ -131,7 +135,7 @@ html {
     height: auto;
     background-color: #010101;
     line-height: 80px;
-    padding: 20px 0;
+    padding: 35px 0;
 
     display: flex;
     align-items: center;
@@ -177,7 +181,7 @@ footer {
 }
 
 .social-links {
-    padding-top: 15px;
+    padding: 10px 0;
 }
 
 .social-media {
@@ -185,7 +189,7 @@ footer {
     align-items: center;
     position: relative;
     justify-content: center;
-    padding-top: 5px;
+    padding-top: 25px;
 }
 
 .social-links li a i {
@@ -216,6 +220,7 @@ footer {
 
 .footer-end {
     padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .footer-end .footer-end-item {
@@ -305,41 +310,54 @@ p {
     background-color: #010101;
 }
 
-h3 {
+.form-container h1 {
     text-align: center;
-    margin-top: 40px;
-    color: #f5f5f5;
+    margin-top: 70px;
+    margin-bottom: 35px;
     text-transform: uppercase;
 }
 
-.contact-form {
-    margin: 25px 0;
-    justify-content: center;
+#label-item {
+    margin-bottom: 3px;
+    color: white;
+    font-size: 16px;
 }
 
-.contact-form .contact-form-item {
+.form-group {
+    margin-bottom: 0;
+}
+
+.group-message {
+    padding-top: 30px
+}
+
+.contact-form-item {
+    margin-bottom: 15px;
+    border-color: #acacac;
+}
+
+.form-control {
+    background-color: #f5f5f5;
+}
+
+#contact-us-item {
     padding-bottom: 0;
 }
 
-.contact-form-item input {
-    margin-bottom: 0;
-    border: none;
-}
-
 #messagetext {
-    width: 80%;
-    margin: 0 10%;
-    border: none;
+    border-color: #acacac;
+    margin-bottom: 20px;
 }
 
 .btn-send {
-    margin-bottom: 40px;
-    margin-top: 15px;
+    margin-bottom: 70px;
+    margin-top: 10px;
     background-color: #f5f5f5;
     border-color: #f5f5f5;
     color: #010101;
     text-transform: uppercase;
     font-size: 17px;
+    padding: .5rem 2.2rem;
 }
 
 .btn-send:hover {
@@ -358,7 +376,8 @@ h3 {
     font-weight: 100;
     text-align: center;
     text-transform: uppercase;
-    margin-top: 40px;
+    margin-top: 70px;
+    margin-bottom: 25px;
     color: #f5f5f5;
 }
 
@@ -367,7 +386,7 @@ h3 {
     font-style: italic;
     color: #ACACAC;
     font-size: 12px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 #subscribe-consent a {
@@ -383,14 +402,23 @@ h3 {
     padding-bottom: 0;
 }
 
-.subscribe-form .subscribe-email input {
-    margin-bottom: 0;
+.input-group-prepend {
+    background-color: #ACACAC;
+    border-radius: 20px;
+}
+
+.input-group .input-group-prepend .input-group-text {
+    color: #010101;
+}
+
+.input-group .form-control {
+    background-color: #f5f5f5;
 }
 
 /* --- Tour --- */
 
 .tour-container {
-    padding: 30px 0 40px;
+    padding: 70px 0 80px;
 }
 
 .tour-container h1 {
@@ -454,7 +482,7 @@ h3 {
 /* --- Media --- */
 
 .video-container {
-    padding: 50px 20px 50px;
+    padding: 65px 20px 60px;
     background-color: #010101;
 }
 
@@ -500,7 +528,7 @@ h3 {
 }
 
 .music-container {
-    padding: 50px 20px 10px;
+    padding: 65px 20px 30px;
     background-image: url('https://i.pinimg.com/originals/d6/57/2b/d6572b3e46b2c0ce40b422d33bacb968.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -582,7 +610,6 @@ h3 {
     }
 }
 
-
 /* --- Media queries --- */
 
 @media (max-width: 375px) {
@@ -614,11 +641,6 @@ h3 {
         width: 100%;
     }
 
-    #messagetext {
-        width: 100%;
-        margin: 0;
-    }
-
     .arrow {
         height: 25px;
         width: 25px;
@@ -629,20 +651,12 @@ h3 {
         padding: 15px 0;
     }
 
-    .tour-container {
-        padding: 30px 0 40px;
-    }
-
     .event-date,
     .event-place,
     .event-city,
     .event-btn {
         padding: 0 0 7px;
         text-align: center;
-    }
-
-    .contact-form-item input {
-        margin-bottom: 12px;
     }
 
     .album-playlist,
@@ -658,6 +672,7 @@ h3 {
     .background-photo h1 {
         font-size: 50px;
     }
+
 }
 
 
@@ -690,11 +705,6 @@ h3 {
         width: 100%;
     }
 
-    #messagetext {
-        width: 100%;
-        margin: 0;
-    }
-
     .arrow {
         height: 25px;
         width: 25px;
@@ -705,10 +715,6 @@ h3 {
         padding: 15px 0;
     }
 
-    .tour-container {
-        padding: 30px 0 40px;
-    }
-
     .event-date,
     .event-place,
     .event-city,
@@ -717,9 +723,6 @@ h3 {
         text-align: center;
     }
 
-    .contact-form-item input {
-        margin-bottom: 12px;
-    }
     .album-playlist,
     .album-cover-art {
         text-align: center;
@@ -733,9 +736,40 @@ h3 {
     .background-photo h1 {
         font-size: 60px;
     }
+    
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+
+    /* stroke code snippet source: https://codepen.io/maheshambure21/pen/QwXaRw */
+    #my-navbar .navbar-nav a {
+        position: relative;
+        font-weight: 400;
+        text-align: right;
+        text-decoration: none;
+        display: block;
+        padding-right: 1px;
+        padding-left: 1px;
+        font-size: 14px;
+        margin: 0;
+    }
+
+    #my-navbar .navbar-nav a:after {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 0%;
+        content: '.';
+        color: transparent;
+        background: #010101;
+        height: 1px;
+    }
+
+    #my-navbar .navbar-nav a:hover:after {
+        width: 100%;
+    }
 
     .album-container {
         height: 90%;
@@ -746,10 +780,8 @@ h3 {
         padding: 50px 20px 0;
     }
 
-
-    #messagetext {
-        width: 100%;
-        margin: 0;
+    .jumbotron h1 {
+        font-size: 40px;
     }
 
     .event-row {
@@ -771,9 +803,8 @@ h3 {
     }
 
     .footer-end {
-        padding: 15px 60px 0;
+        padding: 10px 60px;
     }
-
 }
 
 @media (min-width: 992px) and (max-width: 1800px) {
@@ -783,7 +814,35 @@ h3 {
     }
 
     .footer-end {
-        padding: 15px 60px 0;
+        padding: 10px 60px;
+    }
+
+    /* stroke code snippet source: https://codepen.io/maheshambure21/pen/QwXaRw */
+    #my-navbar .navbar-nav a {
+        position: relative;
+        font-weight: 400;
+        text-align: right;
+        text-decoration: none;
+        display: block;
+        padding: 5px;
+        margin: 0;
+    }
+
+    #my-navbar .navbar-nav a:after {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 0%;
+        content: '.';
+        color: transparent;
+        background: #010101;
+        height: 1px;
+    }
+
+    #my-navbar .navbar-nav a:hover:after {
+        width: 100%;
     }
 
 }

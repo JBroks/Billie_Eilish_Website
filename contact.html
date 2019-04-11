@@ -16,7 +16,7 @@
 <body>
     <!-- Navbar -->
     <nav class="navbar navbar-default navbar-light navbar-expand-md navbar-background" id="my-navbar">
-        <div class="container-fluid">
+        <div class="container-fluid navbar-container">
             <div class="navbar-header">
                 <a class="navbar-brand" href="index.html">
                         Billie Eilish
@@ -47,6 +47,7 @@
                 </div>
             </div>
             <div class="arrow-container">
+                <a href="contact.html#contact-section">
                 <div class="row">
                     <div class="col-12 bounce-element">
                         <div class="arrow bounce"></div>
@@ -54,6 +55,7 @@
                         <div class="arrow bounce"></div>
                     </div>
                 </div>
+                </a>
             </div>
         </div>
     </section>
@@ -63,28 +65,33 @@
             <form>
                 <div class="row">
                     <div class="col-12 contact-form-heading">
-                        <h3>Contact Us!</h3>
+                        <h1 class="hollow-text">Contact Us!</h1>
                     </div>
                 </div>
-                <div class="row form-group contact-form">
-                    <div class="col-md-6 contact-form-item">
+                <div class="row form-group contact-form group-name">
+                    <div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2 contact-form-item" id="contact-us-item">
+                        <label id="label-item" for="InputFirstName">First name</label>
                         <input type="text" class="form-control" placeholder="First name" required>
                     </div>
-                    <div class="col-md-6 contact-form-item">
+                    <div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2 contact-form-item" id="contact-us-item">
+                        <label id="label-item" for="InputLastName">Last name</label>
                         <input type="text" class="form-control" placeholder="Last name" required>
                     </div>
                 </div>
-                <div class="row form-group contact-form">
-                    <div class="col-md-6 contact-form-item">
+                <div class="row form-group contact-form group-details">
+                    <div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2 contact-form-item" id="contact-us-item">
+                        <label id="label-item" for="InputEmail">Email address</label>
                         <input type="email" class="form-control" placeholder="Email" required>
                     </div>
-                    <div class="col-md-6 contact-form-item">
+                    <div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2 contact-form-item" id="contact-us-item">
+                        <label id="label-item" for="InputPhone">Phone number</label>
                         <input type="tel" class="form-control" placeholder="Phone number" required>
                     </div>
                 </div>
-                <div class="row form-group contact-form">
-                    <div class="col-12">
-                        <textarea rows="7" id="messagetext" name="message" class="form-control" placeholder="Message" required></textarea>
+                <div class="row form-group contact-form group-message">
+                    <div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2" id="contact-us-item">
+                        <label id="label-item" for="InputMessage">Message</label>
+                        <textarea rows="7" id="messagetext" name="message" class="form-control" placeholder="Please enter your message here" required></textarea>
                     </div>
                 </div>
                 <div class="form-row text-center">
