@@ -162,12 +162,11 @@ html {
 .btn--buy:hover {
     background-color: transparent;
     color: #f5f5f5;
-    -webkit-transition: color background-color ease-in-out 0.5s;
-    -moz-transition: color background-color ease-in-out 0.5s;
-    -ms-transition: color background-color ease-in-out 0.5s;
-    -o-transition: color background-color ease-in-out 0.5s;
-    transition: color background-color ease-in-out 0.5s;
-
+    -webkit-transition: color ease-in-out 0.5s;
+    -moz-transition: color ease-in-out 0.5s;
+    -ms-transition: color ease-in-out 0.5s;
+    -o-transition: color ease-in-out 0.5s;
+    transition: color ease-in-out 0.5s;
 }
 
 /* --- Footer --- */
@@ -363,11 +362,11 @@ p {
 .btn-send:hover {
     background-color: transparent;
     color: #f5f5f5;
-    -webkit-transition: color background-color ease-in-out 0.5s;
-    -moz-transition: color background-color ease-in-out 0.5s;
-    -ms-transition: color background-color ease-in-out 0.5s;
-    -o-transition: color background-color ease-in-out 0.5s;
-    transition: color background-color ease-in-out 0.5s;
+    -webkit-transition: color ease-in-out 0.5s;
+    -moz-transition: color ease-in-out 0.5s;
+    -ms-transition: color ease-in-out 0.5s;
+    -o-transition: color ease-in-out 0.5s;
+    transition: color ease-in-out 0.5s;
 }
 
 /* --- Subscribe --- */
@@ -448,11 +447,11 @@ p {
 .btn-tour:hover {
     color: #f5f5f5;
     background-color: transparent;
-    -webkit-transition: color background-color ease-in-out 0.5s;
-    -moz-transition: color background-color ease-in-out 0.5s;
-    -ms-transition: color background-color ease-in-out 0.5s;
-    -o-transition: color background-color ease-in-out 0.5s;
-    transition: color background-color ease-in-out 0.5s;
+    -webkit-transition: color ease-in-out 0.5s;
+    -moz-transition: color ease-in-out 0.5s;
+    -ms-transition: color ease-in-out 0.5s;
+    -o-transition: color ease-in-out 0.5s;
+    transition: color ease-in-out 0.5s;
 }
 
 .event-date,
