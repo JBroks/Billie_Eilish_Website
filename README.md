@@ -1,4 +1,4 @@
-# H1 Billie Eilish Website
+# Billie Eilish Website
 
 Stream One Project: User Centric Frontend Development - Milestone Project
 
@@ -6,25 +6,25 @@ This is a website about music artist known as Billie Eilish. This website promot
 as well as allows it's user to subscribe to email list and contact the artist.
 
 
-# H2 Demo
+## Demo
 
 Website demo is available [here](https://jbroks.github.io/Billie_Eilish_Website/ "Billie_Eilish_Website").
 
-# H2 UX
+## UX
 
 In my project I was aiming to achieve tidy and well structured design, while providing all essential information. 
 I used white-silver-black color scheme to create stylish look and to harmonise with artist's cover artwork and photos.
 
-# H2 Features
+## Features
 
-# H3 Existing Features
+### Existing Features
 
 The navabar stays collapsed on mobile devices.
 Websites uses the buttons feature in Bootstrap.
 Bootstrap forms were used to design contact us form and subscribe.
 Arrow on title pages scrolls down to the next section.
 
-# H3 Features left to implement
+### Features left to implement
 
 In the future video carousel could be implemented in the media section.
 
@@ -32,7 +32,7 @@ Also modals for Subscribe and Contact Us form could be implemented to inform the
 
 Validation on forms could be enhanced to check e.g. for valid email domain etc.
 
-# H2 Technologies used
+## Technologies used
 
 1. HTML
 2. CSS
@@ -40,7 +40,7 @@ Validation on forms could be enhanced to check e.g. for valid email domain etc.
 4. Font Awesome (4.7.0)
 
 
-# H2 Testing
+## Testing
 
 Website was tested across different browsers, display sizes and devices to check its responsivness. 
 
@@ -54,26 +54,26 @@ Scroll-down arrow was tested to ensure that it works properly on every title pag
 
 Video clips and embeded audio were tested to ensure that they play and full screen works correctly.
 
-# H2 Deployment
+## Deployment
 
 This site is hosted using GitHub pages, deployed directly from the master branch. The live site updates automatically each time there is a new push to the repository.
 You can 'git clone' the code to run it locally on your machine.
 
-# H2 Credits
+## Credits
 
-# H3 Content
+### Content
 
 Tour information presents acctual events and the information was obtained from the official [website](https://site.billieeilish.com/ "Tour").
 Privacy policy is linked to the acctual policy used by the artist.
 
-# H3 Media
+### Media
 
 Main image used in the first section of every page (page title) was obtained from [here](https://nesthq.com/artist-spotlight-billie-eilish "Main photo").
 New album photo was obtained from the official Billie Eilish [website](https://site.billieeilish.com/ "New album photo").
 
 All images in the photo gallery were obtained from the [Pinterest](https://www.pinterest.ie/maryiscoolbeans/bully-eyelash/ "Photos").
 
-# H3 Acknowledgements
+### Acknowledgements
 
 Navbar and the footer was created using the materials from the Code Institute course.
 
