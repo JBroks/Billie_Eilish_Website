@@ -2,8 +2,7 @@
 
 Stream One Project: User Centric Frontend Development - Milestone Project
 
-This is a website about music artist known as Billie Eilish. This website promotes artist's new album, presents her pictures, audio and video clips, tour events, 
-as well as allows it's user to subscribe to email list and contact the artist.
+This is a website about music artist known as Billie Eilish. This website promotes artist's new album, presents her pictures, audio and video clips, tour events, as well as allows it's user to subscribe to email list and contact the artist.
 
 
 ## Demo
@@ -27,9 +26,7 @@ Arrow on title pages scrolls down to the next section.
 ### Features left to implement
 
 In the future video carousel could be implemented in the media section.
-
 Also modals for Subscribe and Contact Us form could be implemented to inform the user that their form was submitted.
-
 Validation on forms could be enhanced to check e.g. for valid email domain etc.
 
 ## Technologies used
@@ -47,7 +44,7 @@ Website was tested across different browsers, display sizes and devices to check
 Buttons and links were tested to ensure that they work correctly and are opened in a new page.
 
 Forms were tested to ensure that validation checks work and to make sure that all fields are filled before clicking 'send' button. 
-For the email field it was tested if it is possible to send the form without @ symbol. 
+Email field was tested to check if it is possible to send the form without @ symbol. 
 All required fields were tested to ensure that form cannot be send without all required information.
 
 Scroll-down arrow was tested to ensure that it works properly on every title page. For most of the section padding was addjusted to make the navbar look good after scroll-down.
@@ -63,12 +60,14 @@ You can 'git clone' the code to run it locally on your machine.
 
 ### Content
 
-Tour information presents acctual events and the information was obtained from the official [website](https://site.billieeilish.com/ "Tour").
+Tour information presents acctual events, this information was obtained from the official [website](https://site.billieeilish.com/ "Tour").
+
 Privacy policy is linked to the acctual policy used by the artist.
 
 ### Media
 
 Main image used in the first section of every page (page title) was obtained from [here](https://nesthq.com/artist-spotlight-billie-eilish "Main photo").
+
 New album photo was obtained from the official Billie Eilish [website](https://site.billieeilish.com/ "New album photo").
 
 All images in the photo gallery were obtained from the [Pinterest](https://www.pinterest.ie/maryiscoolbeans/bully-eyelash/ "Photos").
