@@ -430,7 +430,7 @@ p {
     border-bottom-color: rgba(172, 172, 172, 0.5);
     border-bottom-width: 1px;
     margin: 0 120px;
-    padding: 10px 0;
+    padding: 20px 0;
 }
 
 .tour-container {
@@ -454,10 +454,10 @@ p {
     transition: color ease-in-out 0.5s;
 }
 
-.event-date,
-.event-place,
-.event-city,
-.event-btn {
+.event-row .event-date,
+.event-row .event-place,
+.event-row .event-city,
+.event-row .event-btn {
     padding: 0;
     text-transform: uppercase;
 }
@@ -647,14 +647,17 @@ p {
 
     .event-row {
         margin: 0 40px;
-        padding: 15px 0;
     }
 
-    .event-date,
-    .event-place,
-    .event-city,
-    .event-btn {
+    .event-row .event-date,
+    .event-row .event-place,
+    .event-row .event-city {
         padding: 0 0 7px;
+        text-align: center;
+    }
+
+    .event-row .event-btn {
+        padding: 7px 0 7px;
         text-align: center;
     }
 
@@ -714,11 +717,15 @@ p {
         padding: 15px 0;
     }
 
-    .event-date,
-    .event-place,
-    .event-city,
-    .event-btn {
+    .event-row .event-date,
+    .event-row .event-place,
+    .event-row .event-city {
         padding: 0 0 7px;
+        text-align: center;
+    }
+
+    .event-row .event-btn {
+        padding: 7px 0 7px;
         text-align: center;
     }
 
@@ -787,14 +794,16 @@ p {
         margin: 0 100px;
     }
 
-    .event-place,
-    .event-city,
-    .event-date {
+    .event-row .event-place,
+    .event-row .event-city,
+    .event-row .event-date {
         text-align: left;
+        padding-bottom: 5px;
     }
 
-    .event-btn {
+    .event-row .event-btn {
         text-align: right;
+        padding-bottom: 5px;
     }
 
     .button-container h4 {
