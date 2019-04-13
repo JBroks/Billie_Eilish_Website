@@ -25,7 +25,7 @@ Arrow on title pages scrolls down to the next section.
 
 ### Features left to implement
 
-In the future video carousel could be implemented in the media section.
+In the future video carousel could be implemented in the media section. Alternatively the restriction could be made so only one video is played at the time.
 Also modals for Subscribe and Contact Us form could be implemented to inform the user that their form was submitted.
 Validation on forms could be enhanced to check e.g. for valid email domain etc.
 
@@ -47,9 +47,16 @@ Forms were tested to ensure that validation checks work and to make sure that al
 Email field was tested to check if it is possible to send the form without @ symbol. 
 All required fields were tested to ensure that form cannot be send without all required information.
 
-Scroll-down arrow was tested to ensure that it works properly on every title page. For most of the section padding was addjusted to make the navbar look good after scroll-down.
+Scroll-down arrow was tested to ensure that it works properly on every title page. Bug was noticed while testing arrow, namely the navbar was covering the section title. In order to fix that padding was addjusted to make the navbar look good after scroll-down.
+However, for the photo page this problem was left unresolved. It will have to be addressed in the future by making applying an offset of some sort.
+
+Another issue related to images was the fact that I was unable to find a high quality image that could be used as a background photo for the main page and title section of the remaining pages.
+
+Finally, on some displays background photos original ratio is not kept due to use of 'cover' setting in the background-size property.
 
 Video clips and embeded audio were tested to ensure that they play and full screen works correctly.
+
+
 
 ## Deployment
 

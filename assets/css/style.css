@@ -83,7 +83,7 @@ html {
 
 .photo-container {
     height: 100vh;
-    background-image: url('../images/main_photo.jpg');
+    background-image: url('../images/main_photo_v2.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -268,7 +268,7 @@ p {
 
 .background-photo-container {
     height: 100vh;
-    background-image: url('../images/main_photo.jpg');
+    background-image: url('../images/main_photo_v2.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
