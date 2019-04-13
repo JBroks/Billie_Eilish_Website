@@ -2,8 +2,7 @@
 
 Stream One Project: User Centric Frontend Development - Milestone Project
 
-This is a website about music artist known as Billie Eilish. This website promotes artist's new album, presents her pictures, audio and video clips, tour events, as well as allows it's user to subscribe to email list and contact the artist.
-
+This is a website about music artist known as Billie Eilish. This website promotes artist's new album, presents her pictures, audio and video clips, tour events, as well as allows its user to subscribe to email list and contact the artist.
 
 ## Demo
 
@@ -36,32 +35,26 @@ Validation on forms could be enhanced to check e.g. for valid email domain etc.
 3. Bootstrap (4.3.1)
 4. Font Awesome (4.7.0)
 
-
 ## Testing
 
-Website was tested across different browsers, display sizes and devices to check its responsivness. 
+Website was tested across different browsers, display sizes and devices to check its responsivness. While testing it was noticed that the heading in the new album section covers the person in the picture therefore the album title was moved to the bottom of container, and padding was adjusted accordingly.
 
-Buttons and links were tested to ensure that they work correctly and are opened in a new page.
+Buttons and links were tested to ensure that they work correctly and are opened in a new page. Any broken links were fixed.
 
-Forms were tested to ensure that validation checks work and to make sure that all fields are filled before clicking 'send' button. 
-Email field was tested to check if it is possible to send the form without @ symbol. 
-All required fields were tested to ensure that form cannot be send without all required information.
+Forms were tested to ensure that validation checks work and to make sure that all fields are filled before clicking 'send' button. Email field was tested to check if it is possible to send the form without @ symbol. All required fields were tested to ensure that form cannot be send without all required information.
 
 Scroll-down arrow was tested to ensure that it works properly on every title page. Bug was noticed while testing arrow, namely the navbar was covering the section title. In order to fix that padding was addjusted to make the navbar look good after scroll-down.
 However, for the photo page this problem was left unresolved. It will have to be addressed in the future by making applying an offset of some sort.
 
-Another issue related to images was the fact that I was unable to find a high quality image that could be used as a background photo for the main page and title section of the remaining pages.
+Another issue related to images was the fact that I was unable to find a high quality image that could be used as a background photo for the main page and title section of the remaining pages. The main photo was replaced with a slightly better quality picture, however it still could be improved.
 
 Finally, on some displays background photos original ratio is not kept due to use of 'cover' setting in the background-size property.
 
-Video clips and embeded audio were tested to ensure that they play and full screen works correctly.
-
-
+Video clips and embeded audio were tested to ensure that they play and full screen works correctly. While testing on mobile devices it was discovered that the second spotify iframe does not always load properly.
 
 ## Deployment
 
-This site is hosted using GitHub pages, deployed directly from the master branch. The live site updates automatically each time there is a new push to the repository.
-You can 'git clone' the code to run it locally on your machine.
+This site is hosted using GitHub pages, deployed directly from the master branch. The live site updates automatically each time there is a new push to the repository. You can 'git clone' the code to run it locally on your machine.
 
 ## Credits
 
@@ -73,7 +66,7 @@ Privacy policy is linked to the acctual policy used by the artist.
 
 ### Media
 
-Main image used in the first section of every page (page title) was obtained from [here](https://nesthq.com/artist-spotlight-billie-eilish "Main photo").
+Main image used in the first section of every page (page title) was obtained from Pinterest website and can be viewed [here](https://i.pinimg.com/originals/6c/eb/99/6ceb996655ad9714d1c46dc64b938276.png "Main photo").
 
 New album photo was obtained from the official Billie Eilish [website](https://site.billieeilish.com/ "New album photo").
 
