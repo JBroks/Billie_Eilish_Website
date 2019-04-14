@@ -17,7 +17,7 @@ I used white-silver-black color scheme to create stylish look and to harmonise w
 
 ### Existing Features
 
-The navabar stays collapsed on mobile devices.
+The navabar stays collapsed on mobile devices and displays with lower resolution.
 Websites uses the buttons feature in Bootstrap.
 Bootstrap forms were used to design contact us form and subscribe.
 Arrow on title pages scrolls down to the next section.
@@ -25,8 +25,10 @@ Arrow on title pages scrolls down to the next section.
 ### Features left to implement
 
 In the future video carousel could be implemented in the media section. Alternatively the restriction could be made so only one video is played at the time.
-Also modals for Subscribe and Contact Us form could be implemented to inform the user that their form was submitted.
-Validation on forms could be enhanced to check e.g. for valid email domain etc.
+
+Also modals for Subscribe and Contact Us form could be implemented to inform the user that their form was submitted. Modals would pop up after all data is validated and sent. Validation on forms could be enhanced to check e.g. for valid email domain etc.
+
+In the fututre it would be useful to implement solution that would make scroll effect smoother.
 
 ## Technologies used
 
@@ -44,7 +46,7 @@ Buttons and links were tested to ensure that they work correctly and are opened 
 Forms were tested to ensure that validation checks work and to make sure that all fields are filled before clicking 'send' button. Email field was tested to check if it is possible to send the form without @ symbol. All required fields were tested to ensure that form cannot be send without all required information.
 
 Scroll-down arrow was tested to ensure that it works properly on every title page. Bug was noticed while testing arrow, namely the navbar was covering the section title. In order to fix that padding was addjusted to make the navbar look good after scroll-down.
-However, for the photo page this problem was left unresolved. It will have to be addressed in the future by making applying an offset of some sort.
+However, for the photo page this problem was left unresolved. It will have to be addressed in the future by applying an offset of some sort that would e.g. place the navbar at the bootom of a previous section.
 
 Another issue related to images was the fact that I was unable to find a high quality image that could be used as a background photo for the main page and title section of the remaining pages. The main photo was replaced with a slightly better quality picture, however it still could be improved.
 
@@ -62,7 +64,7 @@ This site is hosted using GitHub pages, deployed directly from the master branch
 
 Tour information presents acctual events, this information was obtained from the official [website](https://site.billieeilish.com/ "Tour").
 
-Privacy policy is linked to the acctual policy used by the artist.
+Privacy policy is linked to the acctual policy used by the artist. 
 
 ### Media
 
@@ -74,7 +76,7 @@ All images in the photo gallery were obtained from the [Pinterest](https://www.p
 
 ### Acknowledgements
 
-Navbar and the footer was created using the materials from the Code Institute course.
+Navbar and the footer was created using Bootstrap and instructions from the Code Institute course.
 
 Code for the background image was obtained from [here](https://css-tricks.com/perfect-full-page-background-image/ "Background").
 
