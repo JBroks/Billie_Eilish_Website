@@ -50,7 +50,7 @@ However, for the photo page this problem was left unresolved. It will have to be
 
 Another issue related to images was the fact that I was unable to find a high quality image that could be used as a background photo for the main page and title section of the remaining pages. The main photo was replaced with a slightly better quality picture, however it still could be improved.
 
-Finally, on some displays background photos original ratio is not kept due to use of 'cover' setting in the background-size property.
+Finally, on some displays background photos are cropped due to use of 'cover' setting in the background-size property.
 
 Video clips and embeded audio were tested to ensure that they play and full screen works correctly. While testing on mobile devices it was discovered that the second spotify iframe does not always load properly.
 
