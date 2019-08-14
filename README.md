@@ -2,7 +2,21 @@
 
 Stream One Project: User Centric Frontend Development - Milestone Project
 
-This is a website about music artist known as Billie Eilish. This website promotes artist's new album, presents her pictures, audio and video clips, tour events, as well as allows its user to subscribe to email list and contact the artist.
+This is a website is dedicated to American singer and a songwritter, Billie Eilish. This website promotes artist's new album, presents her pictures, audio and video clips, tour events, as well as allows its user to subscribe to email list and contact the artist.
+
+This website consists of the following pages:
+
+1. Home - 
+
+2. Media -
+
+3. Photos - 
+
+4. Tour - 
+
+5. Contact - 
+
+6. Subscribe - 
 
 ## Demo
 
