@@ -24,8 +24,17 @@ Website demo is available [here](https://jbroks.github.io/Billie_Eilish_Website/
 
 ## UX
 
+### UX Design
+
 In my project I was aiming to achieve tidy and well structured design, while providing all essential information. 
 I used white-silver-black color scheme to create stylish look and to harmonise with artist's cover artwork and photos.
+
+### Target Audience
+
+### User Stories
+
+### Mockups & Wireframes
+
 
 ## Features
 
@@ -46,10 +55,29 @@ In the fututre it would be useful to implement solution that would make scroll e
 
 ## Technologies used
 
-1. HTML
-2. CSS
-3. Bootstrap (4.3.1)
-4. Font Awesome (4.7.0)
+### Programming languages
+
+- HTML - The project used **HTML** to define structure and layout of the web page;
+
+- CSS - The project used **CSS** stylesheets to specify style of the web document elements;
+
+### Libraries
+
+- [Font Awesome](https://fontawesome.com/v4.7.0/) -
+
+- [Google Fonts](https://fonts.google.com/) - **Google Fonts** library was used to set up font type for the document;
+
+### Frameworks
+
+- [Bootstrap](https://getbootstrap.com/) -
+
+### Others
+
+- [Gifox](https://gifox.io/) - Tool was used to record the gif presented in the demo secion of this README files;
+
+- [Am I Responsive](http://ami.responsivedesign.is/#) - Online tool was used to display the project on various devices;
+
+- [Figma](https://www.figma.com/) - Software was used to create a project mockup;
 
 ## Testing
 
@@ -67,6 +95,30 @@ Another issue related to images was the fact that I was unable to find a high qu
 Finally, on some displays background photos are cropped due to use of 'cover' setting in the background-size property.
 
 Video clips and embeded audio were tested to ensure that they play and full screen works correctly. While testing on mobile devices it was discovered that the second spotify iframe does not always load properly.
+
+### Code validation
+
+#### CSS
+
+#### HTML
+
+### Features testing
+
+#### Feature 1
+
+##### Bugs:
+
+#### Feature 2
+
+##### Bugs:
+
+### Responsivness testing
+
+### User stories testing
+
+**User Story 1:**
+
+- Solution:
 
 ## Deployment
 
@@ -148,5 +200,9 @@ The use of the anchor for the arrow was suggested by my mentor Maranatha Ilesanm
 
 Photo gallery idea was inspired by [this](https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp "Photos gallery") code.
 
-**This is for educational use.**
+Many thanks to my mentor **Maranatha Ilesanmi** for support and advice throughout the project.
+
+### Disclaimer
+
+*This is for educational use.*
 
