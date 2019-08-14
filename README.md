@@ -26,8 +26,9 @@ Website demo is available [here](https://jbroks.github.io/Billie_Eilish_Website/
 
 ### UX Design
 
-In my project I was aiming to achieve tidy and well structured design, while providing all essential information. 
-I used white-silver-black color scheme to create stylish look and to harmonise with artist's cover artwork and photos.
+In my project I was aiming to achieve tidy and well structured design, while providing all essential information.
+
+In order to create a stylish and modern look I used the following three colors in my design: off-white (`#f5f5f5`), black (`#010101`), and silver (`#acacac`). White-silver-black color scheme also harmonises well with artist's cover artwork and photos.
 
 ### Target Audience
 
@@ -195,8 +196,7 @@ Hover effect on the navbar was taken from [here](https://codepen.io/maheshambure
 
 Outline effect to text was achieved by using [this](https://stackoverflow.com/questions/4919076/outline-effect-to-text "Hollow text") code.
 
-Code for a scroll-down arrow was taken from [here](https://codepen.io/bitstarr/pen/XjaJGz "Arrow").
-The use of the anchor for the arrow was suggested by my mentor Maranatha Ilesanmi.
+Code for a scroll-down arrow was taken from [here](https://codepen.io/bitstarr/pen/XjaJGz "Arrow"). The use of the anchor for the arrow was suggested by my mentor Maranatha Ilesanmi.
 
 Photo gallery idea was inspired by [this](https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp "Photos gallery") code.
 
