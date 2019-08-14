@@ -6,17 +6,17 @@ This is a website is dedicated to American singer and a songwritter, Billie Eili
 
 This website consists of the following pages:
 
-1. Home - 
+1. Home - page promotes recently released album and provides a user with link to purchase and / or stream it.
 
-2. Media -
+2. Media - page contains music albums embeded from Spotify and YouTube videos.
 
-3. Photos - 
+3. Photos - page contains artist's photo gallery in a form of collage.
 
-4. Tour - 
+4. Tour - page contains information about upcoming events and provides it's user with links to external websites of ticket vendors.
 
-5. Contact - 
+5. Contact - page contains a contact form that enables user to submit an enquiry.
 
-6. Subscribe - 
+6. Subscribe - page contains form that takes an email address information from a user that wishes to subscribe to the newsletter.
 
 ## Demo
 
