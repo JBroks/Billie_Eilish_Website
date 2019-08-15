@@ -76,32 +76,29 @@ Additionally [this](https://github.com/JBroks/Billie_Eilish_Website/blob/master/
 
 ### Existing Features
 
-The navabar stays collapsed on mobile devices and displays with lower resolution.
-Websites uses the buttons feature in Bootstrap.
-Bootstrap forms were used to design contact us form and subscribe.
-Arrow on title pages scrolls down to the next section.
-
 The webpage consists of the following features:
 
-- **Spinner** - 
+- **Spinner** - jQuery method `show()` and `hide()` was used to create spinner showing while data is loading;
 
-- **Navbar** -  
+- **Navbar** - The navbar stays collapsed on mobile devices and FontAwesome bar icon is used. The navbar contains links to associated pages i.e. Home, Media, Photos, Tour, Contact, Subscribe;
 
-- **Buttons** - 
+- **Buttons** - The project uses Bootstrap button features;
 
-- **Social media favicons** - 
+- **Down Arrow** - Arrow on each title pages scrolls down to the next section;
 
-- **iFrames** - videos and music
+- **Social media favicons** - The project uses FontAwesome icons for social media links;
 
-- **Photo gallery** - 
+- **iFrames** - iframes features were used to embed music from Spotify and YouTube videos;
 
-- **On Tour table** - 
+- **Photo gallery** - Photo gallery contains artist's photos;
 
-- **Contact Us form** - 
+- **On Tour table** - On tour table provides information about event's date, venues, town / city and country, and button that redirects a user to ticket vendor website;
 
-- **Subscribe form** - 
+- **Contact Us form** - The project uses Bootstrap form features. The form requires to provide first and last name, email address, phone number and message;
 
-- **Footer** - 
+- **Subscribe form** - The project uses Bootstrap form features. User provides his / her email address to subscribe;
+
+- **Footer** - simple footer containing links to artist's social media accounts, links to Subscribe page and Privacy Policy, and copyrights.
 
 
 ### Features left to implement
@@ -111,6 +108,8 @@ In the future video carousel could be implemented in the media section. Alternat
 Also modals for Subscribe and Contact Us form could be implemented to inform the user that their form was submitted. Modals would pop up after all data is validated and sent. Validation on forms could be enhanced to check e.g. for valid email domain etc.
 
 In the fututre it would be useful to implement solution that would make scroll effect smoother.
+
+Another useful feature would be back-to-top button.
 
 ## Technologies used
 
@@ -259,6 +258,8 @@ Outline effect to text was achieved by using [this](https://stackoverflow.com/qu
 Code for a scroll-down arrow was taken from [here](https://codepen.io/bitstarr/pen/XjaJGz "Arrow"). The use of the anchor for the arrow was suggested by my mentor Maranatha Ilesanmi.
 
 Photo gallery idea was inspired by [this](https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp "Photos gallery") code.
+
+Spinner -?????????????????????
 
 Many thanks to my mentor **Maranatha Ilesanmi** for support and advice throughout the project.
 
