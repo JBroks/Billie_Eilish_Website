@@ -62,7 +62,7 @@ The following user stories were used to design this website:
 
 ### Mockups & Wireframes
 
-The following wireframes were created using **MockFlow** to design the website layout options:
+The following wireframes were created using **MockFlow WireframePro** to design the website layout options:
 
 - [Mobile display](https://github.com/JBroks/Billie_Eilish_Website/blob/master/mockups/wireframes_mobile.pdf)
 
@@ -122,13 +122,13 @@ In the fututre it would be useful to implement solution that would make scroll e
 
 ### Libraries
 
-- [Font Awesome](https://fontawesome.com/v4.7.0/) -
+- [Font Awesome](https://fontawesome.com/v4.7.0/) - **Font Awesome** bars icon for menu on mobile devices was used in the project, as well as icons for social media links;
 
 - [Google Fonts](https://fonts.google.com/) - **Google Fonts** library was used to set up font type for the document;
 
 ### Frameworks
 
-- [Bootstrap](https://getbootstrap.com/) -
+- [Bootstrap](https://getbootstrap.com/) - The project used **Bootstrap** to create nice grid layout, and position elements within grids. Also elements such as navbar, buttons and forms were created using **Bootstrap**
 
 ### Others
 
@@ -138,7 +138,7 @@ In the fututre it would be useful to implement solution that would make scroll e
 
 - [Figma](https://www.figma.com/) - Software was used to create a project mockup;
 
-- [MockFlow](https://www.mockflow.com/) - Online tool that was used to create wireframes;
+- [MockFlow WireframePro](https://www.mockflow.com/) - Online tool that was used to create wireframes;
 
 ## Testing
 
