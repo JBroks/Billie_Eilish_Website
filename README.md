@@ -62,6 +62,15 @@ The following user stories were used to design this website:
 
 ### Mockups & Wireframes
 
+The following wireframes were created using **MockFlow** to design the website layout options:
+
+- [Mobile display](https://github.com/JBroks/Billie_Eilish_Website/blob/master/mockups/wireframes_mobile.pdf)
+
+- [Medium display](https://github.com/JBroks/Billie_Eilish_Website/blob/master/mockups/wireframes_medium.pdf)
+
+- [Desktop display](https://github.com/JBroks/Billie_Eilish_Website/blob/master/mockups/wireframes_desktop.pdf)
+
+Additionally [this](https://github.com/JBroks/Billie_Eilish_Website/blob/master/mockups/website_mockup.pdf) mockup for a desktop display was created using **Figma**.
 
 ## Features
 
@@ -128,6 +137,8 @@ In the fututre it would be useful to implement solution that would make scroll e
 - [Am I Responsive](http://ami.responsivedesign.is/#) - Online tool was used to display the project on various devices;
 
 - [Figma](https://www.figma.com/) - Software was used to create a project mockup;
+
+- [MockFlow](https://www.mockflow.com/) - Online tool that was used to create wireframes;
 
 ## Testing
 
