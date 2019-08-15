@@ -32,7 +32,33 @@ In order to create a stylish and modern look I used the following three colors i
 
 ### Target Audience
 
+This website aims to attract Billie Eilish's fans and people that would like to learn more about a total music output of the artist. The main objective of this project is to create a page that will provide an access to a useful information about the artist (creative work i.e. music and videos, photos, events, newsletter subscription) and enable its user to contact the artist and / or follow her on social media.
+
+The project promotes the artist and her work and inform its user about other sources that enable them to attain more information (i.e. social media, ticket vendors websites, links to purchase and stream music).
+
 ### User Stories
+
+The following user stories were used to design this website:
+
+**User Story 1:**
+
+**User Story 2:**
+
+**User Story 3:**
+
+**User Story 4:**
+
+**User Story 5:**
+
+**User Story 6:**
+
+**User Story 7:**
+
+**User Story 8:**
+
+**User Story 9:**
+
+**User Story 10:**
 
 ### Mockups & Wireframes
 
@@ -45,6 +71,29 @@ The navabar stays collapsed on mobile devices and displays with lower resolution
 Websites uses the buttons feature in Bootstrap.
 Bootstrap forms were used to design contact us form and subscribe.
 Arrow on title pages scrolls down to the next section.
+
+The webpage consists of the following features:
+
+- **Spinner** - 
+
+- **Navbar** -  
+
+- **Buttons** - 
+
+- **Social media favicons** - 
+
+- **iFrames** - videos and music
+
+- **Photo gallery** - 
+
+- **On Tour table** - 
+
+- **Contact Us form** - 
+
+- **Subscribe form** - 
+
+- **Footer** - 
+
 
 ### Features left to implement
 
