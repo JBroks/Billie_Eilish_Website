@@ -32,33 +32,33 @@ In order to create a stylish and modern look I used the following three colors i
 
 ### Target Audience
 
-This website aims to attract Billie Eilish's fans and people that would like to learn more about a total music output of the artist. The main objective of this project is to create a page that will provide an access to a useful information about the artist (creative work i.e. music and videos, photos, events, newsletter subscription) and enable its user to contact the artist and / or follow her on social media.
+This website aims to attract Billie Eilish's fans and people that would like to learn more about a total music output of the artist. It also provides means to contact the artist by any user whou would like to e.g. invite her to participate / hire her for an event that they are organising.
 
-The project promotes the artist and her work and inform its user about other sources that enable them to attain more information (i.e. social media, ticket vendors websites, links to purchase and stream music).
+The main objective of this project is to create a page that will provide an access to a useful information about the artist (creative work i.e. music and videos, photos, events, newsletter subscription) and enable its user to contact the artist and / or follow her on social media. The project promotes the artist and her work and inform its user about other sources that enable them to attain more information (i.e. social media, ticket vendors websites, links to purchase and stream music).
 
 ### User Stories
 
 The following user stories were used to design this website:
 
-**User Story 1:**
+**User Story 1:** As a user who does not know much about Billie Eilish I would like to check what sort of music she is making, so I can decide if that is something that suits my taste.
 
-**User Story 2:**
+**User Story 2:** As a fan / user I would like to listen to her music and see some of her videos.
 
-**User Story 3:**
+**User Story 3:** As a fan / user I would like to find her social media account details so I can follow her work.
 
-**User Story 4:**
+**User Story 4:** As a fan / user I would like to get more information about her work and upcoming events on regular basis.
 
-**User Story 5:**
+**User Story 5:** As a fan / user I would like to check some of her pictures to see what I can expect from events that she is taking part in and what sort of image she is creating.
 
-**User Story 6:**
+**User Story 6:** As an event organiser I would like to be able to contact her to discuss possiblity of her performing during my event.
 
-**User Story 7:**
+**User Story 7:** As an event organiser I would like to be able to check some of her work to make sure that she is a kind of artist that would be suitable for my event.
 
-**User Story 8:**
+**User Story 8:** As an event organiser I would like to be able to check some photos and videos from her past events to evaluate her preformance and decide if I would like to hire her.
 
-**User Story 9:**
+**User Story 9:** As a fan / user I would liket ot be able to contact her in order to communicate any of my queries, ideas etc.
 
-**User Story 10:**
+**User Story 10:** As a fan / user I would like to learn about any upcoming events and how can I purchase tickets in order to see her performing live.
 
 ### Mockups & Wireframes
 
