@@ -198,43 +198,43 @@ The website is fully responsive and working well on mobile devices.
 
 **User Story 1:**
 
-- Solution:
+- Solution: Media section of the website provides two previous albums of the artist and various videos. Also, home page provides a link to stream the newly released album, and footer includes links to social media sites (e.g. Spotify, YouTube).
 
 **User Story 2:**
 
-- Solution:
+- Solution: Media section of the website provides two previous albums of the artist and various videos. Also, home page provides a link to stream the newly released album, and footer includes links to social media sites (e.g. Spotify, YouTube).
 
 **User Story 3:**
 
-- Solution:
+- Solution: Footer contains full set of links to artist's social media accounts.
 
 **User Story 4:**
 
-- Solution:
+- Solution: Tour section of the website contains a list of upcoming events with detail information about venue and button that will re-direct user to external website of a ticket vendor. User can also subscribe to the newsletter to receive a regular updates about upcoming events, new album releases etc.
 
 **User Story 5:**
 
-- Solution:
+- Solution: Photos section of the website provides various images, and user can also click on the Instagram icon in the footer to see more photos of the artist on her social media account.
 
 **User Story 6:**
 
-- Solution:
+- Solution: "Contact Us" form enables its user to contact the artist.
 
 **User Story 7:**
 
-- Solution:
+- Solution: Media section of the website provides two previous albums of the artist and various videos. Also, home page provides a link to stream the newly released album, and footer includes links to social media sites (e.g. Spotify, YouTube).
 
 **User Story 8:**
 
-- Solution:
+- Solution: Photos section of the website provides various images. User can also click on the Instagram and / or YouTube icon in the footer to see more photos and videos of the artist on her social media account.
 
 **User Story 9:**
 
-- Solution:
+- Solution: "Contact Us" form enables its user to contact the artist.
 
 **User Story 10:**
 
-- Solution:
+- Solution: Tour section of the website contains a list of upcoming events with detail information about venue and button that will re-direct user to external website of a ticket vendor.
 
 ## Deployment
 
