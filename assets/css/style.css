@@ -31,13 +31,13 @@ html {
 
 /* stroke code snippet source: https://codepen.io/maheshambure21/pen/QwXaRw */
 
-#my-navbar ul li a:hover {
+.navbar-light .navbar-nav .nav-link:hover {
     color: #808080;
 }
 
-#my-navbar .navbar-nav a,
-#my-navbar .navbar-nav a:after,
-#my-navbar .navbar-nav a:before {
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-nav .nav-link:after,
+.navbar-light .navbar-nav .nav-link:before {
     transition: color .5s;
 }
 
@@ -66,7 +66,7 @@ html {
     border: 0;
 }
 
-#my-navbar .navbar-nav a {
+.navbar-light .navbar-nav .nav-link {
     color: #010101;
     text-align: right;
     text-decoration: none;
@@ -748,7 +748,8 @@ p {
 @media (min-width: 768px) and (max-width: 991px) {
 
     /* stroke code snippet source: https://codepen.io/maheshambure21/pen/QwXaRw */
-    #my-navbar .navbar-nav a {
+    
+    .navbar-light .navbar-nav .nav-link {
         position: relative;
         font-weight: 400;
         text-align: right;
@@ -760,7 +761,7 @@ p {
         margin: 0;
     }
 
-    #my-navbar .navbar-nav a:after {
+    .navbar-light .navbar-nav .nav-link:after {
         position: absolute;
         bottom: 0;
         left: 0;
@@ -773,7 +774,7 @@ p {
         height: 1px;
     }
 
-    #my-navbar .navbar-nav a:hover:after {
+    .navbar-light .navbar-nav .nav-link:hover:after {
         width: 100%;
     }
 
@@ -826,7 +827,8 @@ p {
     }
 
     /* stroke code snippet source: https://codepen.io/maheshambure21/pen/QwXaRw */
-    #my-navbar .navbar-nav a {
+    
+    .navbar-light .navbar-nav .nav-link {
         position: relative;
         font-weight: 400;
         text-align: right;
@@ -835,8 +837,8 @@ p {
         padding: 5px;
         margin: 0;
     }
-
-    #my-navbar .navbar-nav a:after {
+    
+    .navbar-light .navbar-nav .nav-link:after {
         position: absolute;
         bottom: 0;
         left: 0;
@@ -849,8 +851,8 @@ p {
         height: 1px;
     }
 
-    #my-navbar .navbar-nav a:hover:after {
+    .navbar-light .navbar-nav .nav-link:hover:after {
         width: 100%;
     }
-
+    
 }
