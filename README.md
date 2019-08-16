@@ -86,9 +86,9 @@ The webpage consists of the following features:
 
 - **Down Arrow** - Arrow on each title pages scrolls down to the next section;
 
-- **Social media favicons** - The project uses FontAwesome icons for social media links;
+- **Social media icons** - The project uses FontAwesome icons for social media links;
 
-- **iFrames** - iframes features were used to embed music from Spotify and YouTube videos;
+- **IFrames** - iframes features were used to embed music from Spotify and YouTube videos;
 
 - **Photo gallery** - Photo gallery contains artist's photos;
 
@@ -141,21 +141,6 @@ Another useful feature would be back-to-top button.
 
 ## Testing
 
-Website was tested across different browsers, display sizes and devices to check its responsivness. While testing it was noticed that the heading in the new album section covers the person in the picture therefore the album title was moved to the bottom of container, and padding was adjusted accordingly.
-
-Buttons and links were tested to ensure that they work correctly and are opened in a new page. Any broken links were fixed.
-
-Forms were tested to ensure that validation checks work and to make sure that all fields are filled before clicking 'send' button. Email field was tested to check if it is possible to send the form without @ symbol. All required fields were tested to ensure that form cannot be send without all required information.
-
-Scroll-down arrow was tested to ensure that it works properly on every title page. Bug was noticed while testing arrow, namely the navbar was covering the section title. In order to fix that padding was addjusted to make the navbar look good after scroll-down.
-However, for the photo page this problem was left unresolved. It will have to be addressed in the future by applying an offset of some sort that would e.g. place the navbar at the bootom of a previous section.
-
-Another issue related to images was the fact that I was unable to find a high quality image that could be used as a background photo for the main page and title section of the remaining pages. The main photo was replaced with a slightly better quality picture, however it still could be improved.
-
-Finally, on some displays background photos are cropped due to use of 'cover' setting in the background-size property.
-
-Video clips and embeded audio were tested to ensure that they play and full screen works correctly. While testing on mobile devices it was discovered that the second spotify iframe does not always load properly.
-
 ### Code validation
 
 #### CSS
@@ -164,13 +149,86 @@ Video clips and embeded audio were tested to ensure that they play and full scre
 
 ### Features testing
 
-#### Feature 1
+#### Spinner
+
+......
 
 ##### Bugs:
 
-#### Feature 2
+....
+
+#### Navbar
+
+Navbar was tested to check if it correctly re-directs a user to appropriate page. 
 
 ##### Bugs:
+
+......
+
+#### Buttons
+
+All buttons and links were tested to ensure that they work correctly and are opened in a new page. 
+
+##### Bugs:
+
+Any broken links were amended appropriately to direct a user to the correct external website. In case where it was missing, attribute `target="_blank"` was added to the link to open the page in a new tab.
+
+#### Down Arrow
+
+Scroll-down arrow was tested to ensure that it works properly on every title page. 
+
+##### Bugs:
+
+Bug was noticed while testing arrow, namely the navbar was covering the section title. In order to fix that padding was addjusted to make the navbar look good after scroll-down.
+However, for the photo page this problem was left unresolved. It will have to be addressed in the future by applying an offset of some sort that would e.g. place the navbar at the bootom of a previous section.
+
+#### Social Media Icons
+
+Links were tested to ensure that they work correctly and are opened in a new page. 
+
+##### Bugs:
+
+In case where it was missing, attribute `target="_blank"` was added to the link to open the page in a new tab.
+
+#### IFrames
+
+Video clips and embeded audio were tested to ensure that they play and full screen works correctly.
+
+##### Bugs:
+
+......
+
+#### Photo gallery
+
+Photo gallery was created using bootstrap grid layout, therefor testing mainly focused on the responsiveness. Also, the code was checked to include ` alt` attribute for each photo.
+
+##### Bugs:
+
+In some cases pictures had to be rearrange slightly to provide a better visual finish for the end row (i.e. so the gap between end of each column and the footer was similar).
+
+#### On Tour table
+
+......
+
+##### Bugs:
+
+Paddings and margins were adjusted for different resolutions to provide a nice looking layout for the content.
+
+#### Contact Us & Subscribe forms
+
+Forms were tested to ensure that validation checks work and to make sure that all fields are filled before clicking 'send' button. Email field was tested to check if it is possible to send the form without @ symbol. All required fields were tested to ensure that form cannot be send without all required information.
+
+##### Bugs:
+
+......
+
+#### Footer
+
+......
+
+##### Bugs:
+
+......
 
 ### Responsivness testing
 
@@ -193,6 +251,10 @@ Chrome developer tools were used during the development process to inspect respo
 Furthermore, [Responsinator](https://www.responsinator.com/) was used to test responsiveness of the final version of the project.
 
 The website is fully responsive and working well on mobile devices.
+
+#### Bugs
+
+While testing it was noticed that the heading in the new album section covers the person in the picture therefore the album title was moved to the bottom of container, and padding was adjusted accordingly.
 
 ### User stories testing
 
@@ -235,6 +297,12 @@ The website is fully responsive and working well on mobile devices.
 **User Story 10:**
 
 - Solution: Tour section of the website contains a list of upcoming events with detail information about venue and button that will re-direct user to external website of a ticket vendor.
+
+### Unresolved bugs
+
+On some displays background photos are cropped due to use of 'cover' setting in the background-size property.
+
+Another issue related to images was the fact that I was unable to find a high quality image that could be used as a background photo for the main page and title section of the remaining pages. The main photo was replaced with a slightly better quality picture, however it still could be improved.
 
 ## Deployment
 
