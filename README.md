@@ -174,9 +174,65 @@ Video clips and embeded audio were tested to ensure that they play and full scre
 
 ### Responsivness testing
 
+This site was tested across multiple browsers (Chrome, Safari, Microsoft Edge, Mozilla Firefox, Opera) and on multiple mobile devices (iPad Mini, iPad, Sony Xperia) to ensure compatibility and responsiveness. 
+
+Chrome developer tools were used during the development process to inspect responsiveness for the following devices:
+
+- iPad Pro / iPad / iPad Mini (portrait & landscape);
+
+- iPhone 5/SE (portrait & landscape);
+
+- iPhone 6/7/8 (portrait & landscape);
+
+- iPhone 6/7/8 Plus (portrait & landscape);
+
+- iPhone X (portrait & landscape);
+
+- Android (Pixel 2) (portrait & landscape).
+
+Furthermore, [Responsinator](https://www.responsinator.com/) was used to test responsiveness of the final version of the project.
+
+The website is fully responsive and working well on mobile devices.
+
 ### User stories testing
 
 **User Story 1:**
+
+- Solution:
+
+**User Story 2:**
+
+- Solution:
+
+**User Story 3:**
+
+- Solution:
+
+**User Story 4:**
+
+- Solution:
+
+**User Story 5:**
+
+- Solution:
+
+**User Story 6:**
+
+- Solution:
+
+**User Story 7:**
+
+- Solution:
+
+**User Story 8:**
+
+- Solution:
+
+**User Story 9:**
+
+- Solution:
+
+**User Story 10:**
 
 - Solution:
 
