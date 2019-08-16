@@ -50,10 +50,6 @@ html {
 
 .navbar .navbar-brand:hover {
     background-color: transparent;
-    -webkit-transform: scale(1.05);
-    -moz-transform: scale(1.05);
-    -ms-transform: scale(1.05);
-    -o-transform: scale(1.05);
     transform: scale(1.05);
 }
 
@@ -87,10 +83,6 @@ html {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -ms-background-size: cover;
-    -o-background-size: cover;
 }
 
 /* --- Section 2 - New album --- */
@@ -101,10 +93,6 @@ html {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -ms-background-size: cover;
-    -o-background-size: cover;
 
     display: flex;
     align-items: flex-end;
@@ -143,7 +131,7 @@ html {
     justify-content: center;
 }
 
-.button-container h4 {
+.button-container h2 {
     color: #f5f5f5;
     font-weight: 300;
 }
@@ -162,10 +150,6 @@ html {
 .btn--buy:hover {
     background-color: transparent;
     color: #f5f5f5;
-    -webkit-transition: color ease-in-out 0.5s;
-    -moz-transition: color ease-in-out 0.5s;
-    -ms-transition: color ease-in-out 0.5s;
-    -o-transition: color ease-in-out 0.5s;
     transition: color ease-in-out 0.5s;
 }
 
@@ -207,10 +191,6 @@ footer {
     background-color: #ACACAC;
     color: #010101;
     transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -ms-transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 }
 
 .list-inline-item:not(:last-child) {
@@ -238,10 +218,6 @@ p {
 
 .footer-end .footer-end-item a:hover {
     color: #ACACAC;
-    -webkit-transition: color ease-in-out 0.25s;
-    -moz-transition: color ease-in-out 0.25s;
-    -ms-transition: color ease-in-out 0.25s;
-    -o-transition: color ease-in-out 0.25s;
     transition: color ease-in-out 0.25s;
 }
 
@@ -272,10 +248,6 @@ p {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -ms-background-size: cover;
-    -o-background-size: cover;
 
     display: flex;
     flex-direction: column;
@@ -309,14 +281,14 @@ p {
     background-color: #010101;
 }
 
-.form-container h1 {
+.form-container h2 {
     text-align: center;
     margin-top: 70px;
     margin-bottom: 35px;
     text-transform: uppercase;
 }
 
-#label-item {
+label {
     margin-bottom: 3px;
     color: white;
     font-size: 16px;
@@ -339,11 +311,7 @@ p {
     background-color: #f5f5f5;
 }
 
-#contact-us-item {
-    padding-bottom: 0;
-}
-
-#messagetext {
+#InputMessage {
     border-color: #acacac;
     margin-bottom: 20px;
 }
@@ -362,10 +330,6 @@ p {
 .btn-send:hover {
     background-color: transparent;
     color: #f5f5f5;
-    -webkit-transition: color ease-in-out 0.5s;
-    -moz-transition: color ease-in-out 0.5s;
-    -ms-transition: color ease-in-out 0.5s;
-    -o-transition: color ease-in-out 0.5s;
     transition: color ease-in-out 0.5s;
 }
 
@@ -373,6 +337,7 @@ p {
 
 #subscribe-form-heading {
     font-weight: 100;
+    font-size: 1.4rem;
     text-align: center;
     text-transform: uppercase;
     margin-top: 70px;
@@ -420,7 +385,7 @@ p {
     padding: 70px 0 80px;
 }
 
-.tour-container h1 {
+.tour-container h2 {
     text-align: center;
     padding-bottom: 20px;
 }
@@ -447,10 +412,6 @@ p {
 .btn-tour:hover {
     color: #f5f5f5;
     background-color: transparent;
-    -webkit-transition: color ease-in-out 0.5s;
-    -moz-transition: color ease-in-out 0.5s;
-    -ms-transition: color ease-in-out 0.5s;
-    -o-transition: color ease-in-out 0.5s;
     transition: color ease-in-out 0.5s;
 }
 
@@ -503,8 +464,8 @@ p {
     text-shadow: -1px -1px 0 #c43b3b, 1px -1px 0 #c43b3b, -1px 1px 0 #c43b3b, 1px 1px 0 #c43b3b;
 }
 
-.video-container-title h1,
-.music-container-title h1 {
+.video-container-title h2,
+.music-container-title h2 {
     font-size: 50px;
     font-weight: 500;
     padding-bottom: 35px;
@@ -533,10 +494,6 @@ p {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -ms-background-size: cover;
-    -o-background-size: cover;
 }
 
 .music-container p {
@@ -565,6 +522,7 @@ p {
 .album-playlist iframe {
     height: 350px;
     width: 350px;
+    border: none;
 }
 
 /* --- Arrow (code from: https://codepen.io/bitstarr/pen/XjaJGz) --- */
@@ -807,7 +765,7 @@ p {
         padding-bottom: 5px;
     }
 
-    .button-container h4 {
+    .button-container h2 {
         font-size: 1.7rem;
     }
 
@@ -818,7 +776,7 @@ p {
 
 @media (min-width: 992px) and (max-width: 1800px) {
 
-    .button-container h4 {
+    .button-container h2 {
         font-size: 2.5rem;
     }
 
