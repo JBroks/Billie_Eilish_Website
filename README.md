@@ -145,16 +145,29 @@ Another useful feature would be back-to-top button.
 
 #### CSS
 
-#### HTML
+CSS code was validated using the [W3C CSS Validation Service - Jigsaw](https://jigsaw.w3.org/css-validator/).
 
-?????remaining error for Media page:  Stray end tag iframe.
-?????remaining warrning for photos page: Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections.
-will not be fixed as there is no need for additional heading
+While validating CSS code the following warning appeared: "Imported style sheets are not checked in direct input and file upload modes". Warning was investigated and [this](https://stackoverflow.com/questions/25946111/importing-css-is-ending-up-with-an-error) Stack Overflow thread explained that it is just an information that imported style sheet will not be validated.
 
-?????Imported style sheets are not checked in direct input and file upload modes
+Also, the following warning appeared during the CSS validation:
+```
 144	.btn--buy	Same color for background-color and border-color
 322	.btn-send	Same color for background-color and border-color
 407	.btn-tour	Same color for background-color and border-color
+```
+
+This warning was ignored as these attributes were set up like this purposely.
+
+#### HTML
+
+HTML code was validated using the [W3C Markup Validation Service](https://validator.w3.org/).
+
+All errors and warning were addressed except the following: 
+
+- Photos page - warning "Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections." was ignored as no heading is required.
+
+- Media page - warning "Stray end tag iframe" - how resolved ???????????
+
 ### Features testing
 
 #### Navbar
@@ -230,7 +243,7 @@ Forms were tested to ensure that validation checks work and to make sure that al
 
 ......
 
-### Responsivness testing
+### Responsiveness testing
 
 This site was tested across multiple browsers (Chrome, Safari, Microsoft Edge, Mozilla Firefox, Opera) and on multiple mobile devices (iPad Mini, iPad, Sony Xperia) to ensure compatibility and responsiveness. 
 
