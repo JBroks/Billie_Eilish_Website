@@ -72,6 +72,7 @@ html {
 
 .navbar-light .navbar-nav .active>.nav-link {
     color: #010101;
+    font-weight: 600;
 }
 
 .navbar-toggler span {
