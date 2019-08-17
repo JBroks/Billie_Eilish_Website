@@ -2,6 +2,8 @@
 
 Stream One Project: User Centric Frontend Development - Milestone Project
 
+![alt text](https://github.com/JBroks/Billie_Eilish_Website/blob/master/gif/billie.gif "Gif")
+
 This is a website is dedicated to American singer and a songwritter, Billie Eilish. This website promotes artist's new album, presents her pictures, audio and video clips, tour events, as well as allows its user to subscribe to email list and contact the artist.
 
 This website consists of the following pages:
