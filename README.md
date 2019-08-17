@@ -78,8 +78,6 @@ Additionally [this](https://github.com/JBroks/Billie_Eilish_Website/blob/master/
 
 The webpage consists of the following features:
 
-- **Spinner** - jQuery method `show()` and `hide()` was used to create spinner showing while data is loading;
-
 - **Navbar** - The navbar stays collapsed on mobile devices and FontAwesome bar icon is used. The navbar contains links to associated pages i.e. Home, Media, Photos, Tour, Contact, Subscribe;
 
 - **Buttons** - The project uses Bootstrap button features;
@@ -115,9 +113,9 @@ Another useful feature would be back-to-top button.
 
 ### Programming languages
 
-- HTML - The project used **HTML** to define structure and layout of the web page;
+- **HTML** - The project used HTML to define structure and layout of the web page;
 
-- CSS - The project used **CSS** stylesheets to specify style of the web document elements;
+- **CSS** - The project used CSS stylesheets to specify style of the web document elements;
 
 ### Libraries
 
@@ -127,7 +125,7 @@ Another useful feature would be back-to-top button.
 
 ### Frameworks
 
-- [Bootstrap](https://getbootstrap.com/) - The project used **Bootstrap** to create nice grid layout, and position elements within grids. Also elements such as navbar, buttons and forms were created using **Bootstrap**
+- [Bootstrap](https://getbootstrap.com/) - The project used **Bootstrap** to create nice grid layout, and position elements within grids. Also elements such as navbar, buttons and forms were created using **Bootstrap**;
 
 ### Others
 
@@ -137,7 +135,7 @@ Another useful feature would be back-to-top button.
 
 - [Figma](https://www.figma.com/) - Software was used to create a project mockup;
 
-- [MockFlow WireframePro](https://www.mockflow.com/) - Online tool that was used to create wireframes;
+- [MockFlow WireframePro](https://www.mockflow.com/) - Online tool that was used to create wireframes.
 
 ## Testing
 
@@ -147,15 +145,15 @@ Another useful feature would be back-to-top button.
 
 #### HTML
 
+?????remaining error for Media page:  Stray end tag iframe.
+?????remaining warrning for photos page: Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections.
+will not be fixed as there is no need for additional heading
+
+?????Imported style sheets are not checked in direct input and file upload modes
+144	.btn--buy	Same color for background-color and border-color
+322	.btn-send	Same color for background-color and border-color
+407	.btn-tour	Same color for background-color and border-color
 ### Features testing
-
-#### Spinner
-
-......
-
-##### Bugs:
-
-....
 
 #### Navbar
 
@@ -369,6 +367,8 @@ New album photo was obtained from the official Billie Eilish [website](https://s
 
 All images in the photo gallery were obtained from the [Pinterest](https://www.pinterest.ie/maryiscoolbeans/bully-eyelash/ "Photos").
 
+Favicon used for the project was download from [here](https://www.roblox.com/library/2310054681/blohsh "Favicon").
+
 ### Acknowledgements
 
 Navbar and the footer was created using Bootstrap and instructions from the Code Institute course.
@@ -382,8 +382,6 @@ Outline effect to text was achieved by using [this](https://stackoverflow.com/qu
 Code for a scroll-down arrow was taken from [here](https://codepen.io/bitstarr/pen/XjaJGz "Arrow"). The use of the anchor for the arrow was suggested by my mentor Maranatha Ilesanmi.
 
 Photo gallery idea was inspired by [this](https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp "Photos gallery") code.
-
-Spinner -?????????????????????
 
 Many thanks to my mentor **Maranatha Ilesanmi** for support and advice throughout the project.
 
