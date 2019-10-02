@@ -162,11 +162,19 @@ This warning was ignored as these attributes were set up like this purposely.
 
 HTML code was validated using the [W3C Markup Validation Service](https://validator.w3.org/).
 
-All errors and warning were addressed except the following: 
+All errors and warnings were addressed except the following: 
 
-- Photos page - warning "Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections." was ignored as no heading is required.
+- Photos page warning
 
-- Media page - warning "Stray end tag iframe" - how resolved ???????????
+```
+Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections.
+
+From line 81, column 5; to line 81, column 25
+
+ -->↩↩    <section id="photos">↩↩   
+ ```
+
+This warning was ignored as no heading is required.
 
 ### Features testing
 
@@ -174,9 +182,11 @@ All errors and warning were addressed except the following:
 
 Navbar was tested to check if it correctly re-directs a user to appropriate page. 
 
+To improve information architecture 'active' class was added to active navbar list item.
+
 ##### Bugs:
 
-......
+No bugs were left unresolved.
 
 #### Buttons
 
@@ -209,7 +219,7 @@ Video clips and embeded audio were tested to ensure that they play and full scre
 
 ##### Bugs:
 
-......
+NO bugs identified.
 
 #### Photo gallery
 
@@ -221,8 +231,6 @@ In some cases pictures had to be rearrange slightly to provide a better visual f
 
 #### On Tour table
 
-......
-
 ##### Bugs:
 
 Paddings and margins were adjusted for different resolutions to provide a nice looking layout for the content.
@@ -233,15 +241,13 @@ Forms were tested to ensure that validation checks work and to make sure that al
 
 ##### Bugs:
 
-......
+No bugs were identified.
 
 #### Footer
 
-......
-
 ##### Bugs:
 
-......
+No bugs were identified.
 
 ### Responsiveness testing
 
