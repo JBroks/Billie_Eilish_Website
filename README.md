@@ -4,13 +4,13 @@ Stream One Project: User Centric Frontend Development - Milestone Project
 
 ![alt text](https://github.com/JBroks/Billie_Eilish_Website/blob/master/gif/billie.gif "Gif")
 
-This is a website is dedicated to American singer and a songwritter, Billie Eilish. This website promotes artist's new album, presents her pictures, audio and video clips, tour events, as well as allows its user to subscribe to email list and contact the artist.
+This is a website is dedicated to American singer and a songwriter, Billie Eilish. This website promotes artist's new album, presents her pictures, audio and video clips, tour events, as well as allows its user to subscribe to email list and contact the artist.
 
 This website consists of the following pages:
 
 1. Home - page promotes recently released album and provides a user with link to purchase and / or stream it.
 
-2. Media - page contains music albums embeded from Spotify and YouTube videos.
+2. Media - page contains music albums embedded from Spotify and YouTube videos.
 
 3. Photos - page contains artist's photo gallery in a form of collage.
 
@@ -30,11 +30,11 @@ Website demo is available [here](https://jbroks.github.io/Billie_Eilish_Website/
 
 In my project I was aiming to achieve tidy and well structured design, while providing all essential information.
 
-In order to create a stylish and modern look I used the following three colors in my design: off-white (`#f5f5f5`), black (`#010101`), and silver (`#acacac`). White-silver-black color scheme also harmonises well with artist's cover artwork and photos.
+In order to create a stylish and modern look I used the following three colors in my design: off-white (`#f5f5f5`), black (`#010101`), and silver (`#acacac`). White-silver-black color scheme also harmonizes well with artist's cover artwork and photos.
 
 ### Target Audience
 
-This website aims to attract Billie Eilish's fans and people that would like to learn more about a total music output of the artist. It also provides means to contact the artist by any user whou would like to e.g. invite her to participate / hire her for an event that they are organising.
+This website aims to attract Billie Eilish's fans and people that would like to learn more about a total music output of the artist. It also provides means to contact the artist by any user who would like to e.g. invite her to participate / hire her for an event that they are organising.
 
 The main objective of this project is to create a page that will provide an access to a useful information about the artist (creative work i.e. music and videos, photos, events, newsletter subscription) and enable its user to contact the artist and / or follow her on social media. The project promotes the artist and her work and inform its user about other sources that enable them to attain more information (i.e. social media, ticket vendors websites, links to purchase and stream music).
 
@@ -52,13 +52,13 @@ The following user stories were used to design this website:
 
 **User Story 5:** As a fan / user I would like to check some of her pictures to see what I can expect from events that she is taking part in and what sort of image she is creating.
 
-**User Story 6:** As an event organiser I would like to be able to contact her to discuss possiblity of her performing during my event.
+**User Story 6:** As an event organiser I would like to be able to contact her to discuss possibility of her performing during my event.
 
 **User Story 7:** As an event organiser I would like to be able to check some of her work to make sure that she is a kind of artist that would be suitable for my event.
 
-**User Story 8:** As an event organiser I would like to be able to check some photos and videos from her past events to evaluate her preformance and decide if I would like to hire her.
+**User Story 8:** As an event organiser I would like to be able to check some photos and videos from her past events to evaluate her performance and decide if I would like to hire her.
 
-**User Story 9:** As a fan / user I would liket ot be able to contact her in order to communicate any of my queries, ideas etc.
+**User Story 9:** As a fan / user I would like to be able to contact her in order to communicate any of my queries, ideas etc.
 
 **User Story 10:** As a fan / user I would like to learn about any upcoming events and how can I purchase tickets in order to see her performing live.
 
@@ -80,13 +80,13 @@ Additionally [this](https://github.com/JBroks/Billie_Eilish_Website/blob/master/
 
 The webpage consists of the following features:
 
-- **Navbar** - The navbar stays collapsed on mobile devices and FontAwesome bar icon is used. The navbar contains links to associated pages i.e. Home, Media, Photos, Tour, Contact, Subscribe;
+- **Navbar** - The navbar stays collapsed on mobile devices and Font Awesome bar icon is used. The navbar contains links to associated pages i.e. Home, Media, Photos, Tour, Contact, Subscribe;
 
 - **Buttons** - The project uses Bootstrap button features;
 
 - **Down Arrow** - Arrow on each title pages scrolls down to the next section;
 
-- **Social media icons** - The project uses FontAwesome icons for social media links;
+- **Social media icons** - The project uses Font Awesome icons for social media links;
 
 - **IFrames** - iframes features were used to embed music from Spotify and YouTube videos;
 
@@ -103,11 +103,11 @@ The webpage consists of the following features:
 
 ### Features left to implement
 
-In the future video carousel could be implemented in the media section. Alternatively the restriction could be made so only one video is played at the time.
+In the future video carousel could be implemented in the media section. Alternatively, the restriction could be made so only one video is played at the time.
 
 Also modals for Subscribe and Contact Us form could be implemented to inform the user that their form was submitted. Modals would pop up after all data is validated and sent. Validation on forms could be enhanced to check e.g. for valid email domain etc.
 
-In the fututre it would be useful to implement solution that would make scroll effect smoother.
+In the future it would be useful to implement solution that would make scroll effect smoother.
 
 Another useful feature would be back-to-top button.
 
@@ -131,7 +131,7 @@ Another useful feature would be back-to-top button.
 
 ### Others
 
-- [Gifox](https://gifox.io/) - Tool was used to record the gif presented in the demo secion of this README files;
+- [Gifox](https://gifox.io/) - Tool was used to record the gif presented in the demo section of this README files;
 
 - [Am I Responsive](http://ami.responsivedesign.is/#) - Online tool was used to display the project on various devices;
 
@@ -202,8 +202,8 @@ Scroll-down arrow was tested to ensure that it works properly on every title pag
 
 ##### Bugs:
 
-Bug was noticed while testing arrow, namely the navbar was covering the section title. In order to fix that padding was addjusted to make the navbar look good after scroll-down.
-However, for the photo page this problem was left unresolved. It will have to be addressed in the future by applying an offset of some sort that would e.g. place the navbar at the bootom of a previous section.
+Bug was noticed while testing arrow, namely the navbar was covering the section title. In order to fix that padding was adjusted to make the navbar look good after scroll-down.
+However, for the photo page this problem was left unresolved. It will have to be addressed in the future by applying an offset of some sort that would e.g. place the navbar at the bottom of a previous section.
 
 #### Social Media Icons
 
@@ -215,7 +215,7 @@ In case where it was missing, attribute `target="_blank"` was added to the link 
 
 #### IFrames
 
-Video clips and embeded audio were tested to ensure that they play and full screen works correctly.
+Video clips and embedded audio were tested to ensure that they play and full screen works correctly.
 
 ##### Bugs:
 
@@ -291,7 +291,7 @@ While testing it was noticed that the heading in the new album section covers th
 
 **User Story 4:**
 
-- Solution: Tour section of the website contains a list of upcoming events with detail information about venue and button that will re-direct user to external website of a ticket vendor. User can also subscribe to the newsletter to receive a regular updates about upcoming events, new album releases etc.
+- Solution: Tour section of the website contains a list of upcoming events with detail information about venue and button that will re-direct user to external website of a ticket vendor. User can also subscribe to the newsletter to receive regular updates about upcoming events, new album releases etc.
 
 **User Story 5:**
 
@@ -321,7 +321,7 @@ While testing it was noticed that the heading in the new album section covers th
 
 On some displays background photos are cropped due to use of 'cover' setting in the background-size property.
 
-Another issue related to images was the fact that I was unable to find a high quality image that could be used as a background photo for the main page and title section of the remaining pages. The main photo was replaced with a slightly better quality picture, however it still could be improved.
+Another issue related to images was the fact that I was unable to find a high-quality image that could be used as a background photo for the main page and title section of the remaining pages. The main photo was replaced with a slightly better-quality picture, however it still could be improved.
 
 ## Deployment
 
@@ -376,9 +376,9 @@ $ git clone https://github.com/JBroks/Billie_Eilish_Website.git
 
 ### Content
 
-Tour information presents acctual events, this information was obtained from the official [website](https://site.billieeilish.com/ "Tour").
+Tour information presents actual events, this information was obtained from the official [website](https://site.billieeilish.com/ "Tour").
 
-Privacy policy is linked to the acctual policy used by the artist. 
+Privacy policy is linked to the actual policy used by the artist. 
 
 ### Media
 
