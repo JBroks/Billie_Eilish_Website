@@ -121,13 +121,13 @@ Another useful feature would be back-to-top button.
 
 ### Libraries
 
-- [Font Awesome](https://fontawesome.com/v4.7.0/) - **Font Awesome** bars icon for menu on mobile devices was used in the project, as well as icons for social media links;
+- [Font Awesome](https://fontawesome.com/v4.7.0/) - Font Awesome bars icon for menu on mobile devices was used in the project, as well as icons for social media links;
 
-- [Google Fonts](https://fonts.google.com/) - **Google Fonts** library was used to set up font type for the document;
+- [Google Fonts](https://fonts.google.com/) - Google Fonts library was used to set up font type for the document;
 
 ### Frameworks
 
-- [Bootstrap](https://getbootstrap.com/) - The project used **Bootstrap** to create nice grid layout, and position elements within grids. Also elements such as navbar, buttons and forms were created using **Bootstrap**;
+- [Bootstrap](https://getbootstrap.com/) - The project used Bootstrap to create nice grid layout, and position elements within grids. Also elements such as navbar, buttons and forms were created using Bootstrap;
 
 ### Others
 
