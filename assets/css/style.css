@@ -602,8 +602,12 @@ label {
     }
 
     .arrow {
-        height: 25px;
-        width: 25px;
+        height: 35px;
+        width: 35px;
+    }
+
+    .arrow-container {
+        padding-top: 50px;
     }
 
     .event-row {
@@ -633,7 +637,8 @@ label {
     }
 
     .background-photo h1 {
-        font-size: 50px;
+        font-size: 60px;
+        padding-top: 180px;
     }
 
 }
@@ -668,9 +673,15 @@ label {
         width: 100%;
     }
 
+    /* Adjust arrow and arrow container on small displays as it was too low */
     .arrow {
-        height: 25px;
-        width: 25px;
+        height: 35px;
+        width: 35px;
+        bottom: -1rem;
+    }
+
+    .arrow-container {
+        padding-top: 10px;
     }
 
     .event-row {
@@ -702,6 +713,7 @@ label {
 
     .background-photo h1 {
         font-size: 60px;
+        padding-top: 90px;
     }
 
 }
@@ -770,7 +782,6 @@ label {
 @media (min-width: 768px) {
 
     /* stroke code snippet source: https://codepen.io/maheshambure21/pen/QwXaRw */
-    
     .navbar-light .navbar-nav .nav-link {
         position: relative;
         font-weight: 500;
@@ -795,5 +806,23 @@ label {
 
     .navbar-light .navbar-nav .nav-link:hover:after {
         width: 100%;
+    }
+}
+
+/* Media query applied to resolve issue on the Pixel 2 XL  landscape view */
+
+@media (min-height: 350px) and (max-height: 450px) {
+
+    .background-photo h1 {
+        font-size: 70px;
+        padding-top: 120px;
+    }
+
+    .arrow-container {
+        padding-top: 10px;
+    }
+
+    .arrow {
+        bottom: -1rem;
     }
 }
